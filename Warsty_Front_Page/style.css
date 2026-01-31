@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    background-color: black;
+}
+
+.navbar_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.navbar_logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar_logo img{
+    width: 70%;
+    height: 50px;
+    border-radius: 30%;
+}
+
+.navbar_logo span{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.navbar_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+}
+
+.navbar_menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 6px 25px;
+  transition: color 0.3s ease;
+}
+
+.navbar_menu a:hover {
+  color: black;
+  background-color: rgba(175, 165, 165, 0.973);
+}
+
+.navbar_auth button{
+    font-size: 18px;
+    padding: 10px 40px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 60px;
+    gap: 100px;
+
+}
+
+.hero_content{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero_content h1{
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.hero_content p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.hero_navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.hero_navbar button{
+    font-size: 18px;
+    padding: 10px 40px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+}
+
+.hero_navbar div{
+    font-size: 25px;
+    font-weight: 600;
+}
