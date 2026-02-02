@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero-section{
+    background-color: #FCF5EB;
+    padding: 0px 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 3.7%;
+}
+
+.logo span{
+    color: #25D366;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.main-body{
+    width: 68%;
+    margin: 0 auto;
+}
+
+.container-1{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 20px 40px;
+    background-color: white;
+    margin-top: 50px;
+    gap: 17px;
+}
+
+.container-1 img{
+    width: 10%;
+}
+
+.head{
+    font-size: 20px;
+}
+
+.description p{
+    font-size: 16px;
+}
+
+.container-1 button{
+    display: flex;
+    text-decoration: none;
+    background-color: #25D366;
+    padding: 15px 33px;
+    border: 1px solid black;
+    border-radius: 25px;
+    gap: 15px;
+    font-size: 16px;
+}
+
+.container-2-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 40px 50px;
+    background-color: white;
+    margin-top: 16px;
+    gap: 17px;
+}
+
+.steps{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.steps h3{
+    font-size: 32px;
+    font-weight: 500;
+    color: #332e2e;
+}
+
+.steps-list{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 19px;
+
+}
+
+.steps-list a{
+    font-size: 18px;
+}
+
+.step-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.step-circle{
+    height: 26px;
+    width: 26px;
+    border: 1.5px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.help-link{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #25D366;
+    text-decoration-thickness: 2px;
+}
+
+.checkbox{
+    margin-top: 20px;
+}
+
+.checkbox span{
+    font-size: 17px;
+}
+
+.qr-code{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.qr-code img{
+    width: 100%;
+}
+
+.qr-code a{
+    margin-top: 20px;
+    text-align: right;
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+    text-decoration: underline;
+    text-decoration-color: #25D366;
+    text-decoration-thickness: 2px;
+}
+
+.qr-code a:hover{
+    color: #25D366;
+}
+
+.bottom-section{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.signup-text{
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+.signup-text a{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #25D366;
+    text-decoration-thickness: 2px;
+    font-weight: 500;
+}
+
+.signup-text a:hover{
+    color: #25D366;
+}
+
+.encrypted-text{
+    font-size: 16px;
+    color: #5f6368;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 18px;
+}
+
+.encrypted-text i{
+    font-size: 14px;
+}
+
+.bottom-link{
+    font-size: 13px;
+    color: #5f6368;
+    text-decoration: none;
+    margin: 100px;
+}
