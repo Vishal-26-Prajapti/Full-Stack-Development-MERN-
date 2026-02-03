@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
     <div class="hero-section">
         <div class="logo">
@@ -40,14 +42,17 @@
 
                             <div class="step-item">
                                 <span class="step-circle">2</span>
-                                <p>Tap the link to open WhatsApp</p>
+                                <p>Tap the link to open WhatsApp</p><img src="./Image/Whatsapp.png">
                             </div>
 
                             <div class="step-item">
                                 <span class="step-circle">3</span>
                                 <p>Scan the QR code again to link to your account</p>
                             </div>
-                            <a href="#" class="help-link">Need help? <span>↗</span></a>
+                            <a href="#" class="help-link">
+                                <span class="help-link-text">Need help?</span>
+                                <span><b>↗</b></span>
+                            </a>
                             <div class="checkbox">
                                 <input type="checkbox" checked> &nbsp;&nbsp;<span>Stay logged in on this browser</span>
                             </div>
@@ -55,14 +60,20 @@
                     </div>
                     <div class="qr-code">
                         <img src="./Image/QR.png" alt="QR-code">
-                        <a href="#">Log in with phone number ></a>
+                        <a href="#" class="login-link">
+                            <span class="login-link-text">Log in with phone number</span>
+                            <span><b>></b></span>
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="bottom-section">
                 <p class="signup-text">
                     Don't have a WhatsApp account?
-                    <a href="#">Get started ↗</a>
+                    <a href="#">
+                        <span class="signup-text-link">Get started</span>
+                        <span><b>↗</b></span>
+                    </a>
                 </p>
                 <p class="encrypted-text">
                     <i class="fa fa-lock"></i>
@@ -75,4 +86,5 @@
         </div>
     </div>
 </body>
+
 </html>
