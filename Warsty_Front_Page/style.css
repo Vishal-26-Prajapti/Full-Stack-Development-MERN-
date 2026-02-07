@@ -21,6 +21,7 @@ body{
     justify-content: space-between;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
 }
 
 .navbar_logo img{
@@ -60,6 +61,12 @@ body{
     border: 2px solid white;
     background-color: black;
     color: white;
+    cursor: pointer;
+}
+
+.navbar_auth button:hover, .hero_navbar button:hover{
+    background-color: #ffffff;
+    color: #000000;
 }
 
 .hero-section{
@@ -99,9 +106,11 @@ body{
     border: 2px solid white;
     background-color: black;
     color: white;
+    cursor: pointer;
 }
 
 .hero_navbar div{
     font-size: 25px;
     font-weight: 600;
+    cursor: pointer;
 }
