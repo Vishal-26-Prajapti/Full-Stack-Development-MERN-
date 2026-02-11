@@ -72,6 +72,8 @@ https://github.com/vishal-26-prajapti/Full-Stack-Development-MERN-
 🔗 Netlify:  
 https://vlp-cos-warsty.netlify.app/
 
+---
+
 ### 🔹 Day 07 – Profile Card UI Design
 A modern profile card UI featuring a profile image, social media icons, action buttons, and engagement analytics, built using pure HTML and CSS.  
 
