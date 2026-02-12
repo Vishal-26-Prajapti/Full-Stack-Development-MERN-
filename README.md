@@ -92,7 +92,7 @@ A modern and visually engaging tech landing page featuring a video background he
 https://vlp-cos-novatech.netlify.app/
 
 🔗 GitHub Pages:  
-[ADD GITHUB LINK HERE]
+https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-08%20NovaTech-Animated-Website/
 
 ## 🛠️ Tech Stack
 - HTML5  
