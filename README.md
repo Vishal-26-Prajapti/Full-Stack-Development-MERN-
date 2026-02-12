@@ -85,6 +85,15 @@ https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-07_Profile
 
 ---
 
+### 🔹 Day 08 – NovaTech | Modern Tech Landing Page
+A modern and visually engaging tech landing page featuring a video background hero section, smooth animations, and clean UI layout, built using HTML and CSS.  
+
+🔗 Live Demo (Netlify):  
+https://vlp-cos-novatech.netlify.app/
+
+🔗 GitHub Pages:  
+[ADD GITHUB LINK HERE]
+
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
