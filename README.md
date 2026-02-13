@@ -85,6 +85,27 @@ https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-07_Profile
 
 ---
 
+### 🔹 Day 08 – NovaTech | Modern Tech Landing Page
+A modern and visually engaging tech landing page featuring a video background hero section, smooth animations, and clean UI layout, built using HTML and CSS.  
+
+🔗 Live Demo (Netlify):  
+https://vlp-cos-novatech.netlify.app/
+
+🔗 GitHub Pages:  
+https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-08%20NovaTech-Animated-Website/
+
+---
+
+### 🔹 Day 09 – Speech to Text Converter
+A web-based speech to text converter that transforms live voice input into text using the JavaScript Web Speech API.  
+It supports continuous speech recognition with real-time text updates and a scrollable output area for long inputs.
+
+🔗 Live Demo (Netlify):  
+https://vlp-cos-speech-to-text-converter.netlify.app/
+
+🔗 GitHub Pages:  
+https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-09_Speech-to-text/
+
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
