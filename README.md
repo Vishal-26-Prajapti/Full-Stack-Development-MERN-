@@ -106,6 +106,18 @@ https://vlp-cos-speech-to-text-converter.netlify.app/
 🔗 GitHub Pages:  
 https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-09_Speech-to-text/
 
+---
+
+### 🔹 Day 10 – Quick URLs Application
+A simple bookmark manager web app that allows users to add, view, and delete website URLs.  
+Bookmarks are stored using browser localStorage, ensuring persistence across sessions.
+
+🔗 Live Demo (Netlify):  
+https://vls-cos-quick-url-application.netlify.app/
+
+🔗 GitHub Pages:  
+https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-10_-Quick-URL-Application/
+
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
