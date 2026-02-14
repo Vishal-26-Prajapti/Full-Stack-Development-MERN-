@@ -12,7 +12,7 @@ This repository contains frontend demo projects created as part of my **#100Days
 A frontend UI clone of a Microsoft-style login page created to practice layout, alignment, and typography.
 
 🔗 GitHub Pages:  
-https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Microsoft_Login_Page/
+https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-01_Microsoft_Login_Page/
 
 🔗 Netlify:
 https://ms-login-page.netlify.app/
@@ -23,7 +23,7 @@ https://ms-login-page.netlify.app/
 A responsive WhatsApp Web login interface built using HTML and CSS.
 
 🔗 GitHub Pages:  
-https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/WhatsApp_Web/
+https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-02_WhatsApp_Web/
 
 🔗 Netlify:  
 https://vlp-cos-whasapp-web.netlify.app/
@@ -34,7 +34,7 @@ https://vlp-cos-whasapp-web.netlify.app/
 A modern trading platform landing page UI focusing on layout, spacing, and clean visuals.
 
 🔗 GitHub Pages:  
-https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Warsty_Front_Page/
+https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-03_Warsty_Front_Page/
 
 🔗 Netlify:
 https://warsty-front-page.netlify.app/
@@ -56,7 +56,7 @@ https://vlp-cos-codeofschool-contact-page.netlify.app/
 An extended version of Day-04 with sticky navbar, Google Map, social icons, floating WhatsApp button, and detailed footer.
 
 🔗 GitHub Repository:  
-https://github.com/vishal-26-prajapti/Full-Stack-Development-MERN-
+https://github.com/vishal-26-prajapti/Full-Stack-Development-MERN-/Day-04-05_CodeOfSchool_Contact_Us/
 
 🔗 Netlify:  
 https://vls-cos-codeofschool-contact-form.netlify.app/
@@ -67,7 +67,7 @@ https://vls-cos-codeofschool-contact-form.netlify.app/
 An interactive flipping credit card UI with 3D animation and glassmorphism effect using pure HTML and CSS.
 
 🔗 GitHub Repository:  
-https://github.com/vishal-26-prajapti/Full-Stack-Development-MERN-
+https://github.com/vishal-26-prajapti/Full-Stack-Development-MERN-/Day-06-ATM_Card/
 
 🔗 Netlify:  
 https://vlp-cos-warsty.netlify.app/
