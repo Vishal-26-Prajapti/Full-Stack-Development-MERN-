@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-image: url("./Image/Microsoft_Background_Image.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login-page{
+    width: 420px;
+    background: white;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.logo{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo img{
+    height: 25px;
+    height: 25px;
+}
+
+.logo span{
+    color: #727272;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.login-page h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.login-page input{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    border-bottom: 1px solid rgb(0, 47, 255);
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.text {
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.text a{
+    color: rgb(0, 89, 255);
+    text-decoration: none;
+}
+
+.text a:hover{
+    text-decoration: underline;
+    color:#727272
+}
+
+.buttons{
+    display: flex;
+    justify-content:flex-end;
+    gap: 5px;
+    margin-top: 25px;
+}
+
+.btn{
+    padding: 7px 35px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;        
+}
+
+.back{
+    background: #ccc;
+}
+
+.back:hover{
+    background: #b6b3b3fa;
+}
+
+.next{
+    background: blue;
+    color: white;
+}
+
+.next:hover{
+    background: rgb(42, 42, 252);
+}
+
+.options{
+    width: 420px;
+    margin-top: 15px;
+    padding: 15px;
+    padding-left: 40px;
+    background: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.options:hover{
+    background-color: #929090a6;
+}
