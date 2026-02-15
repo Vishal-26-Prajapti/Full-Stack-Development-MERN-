@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f4f5f7;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.col-1 {
+    flex: 1 1 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.item {
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 0.3rem;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.item img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+
+.item:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.item.active {
+    border: 2px solid #0077ff;
+    transform: scale(1.1);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+.col-2 {
+    flex: 4 1 300px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    background: #fff;
+}
+
+.slides-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    flex-shrink: 0;
+    width: 100%;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.slide img:hover {
+    transform: scale(1.03);
+}
+
+#nextBtn,
+#prevBtn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0.6rem;
+    background: linear-gradient(145deg, #ffffff, #e0e0e0);
+    border: none;
+    font-size: 1.7rem;
+    cursor: pointer;
+    z-index: 2;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+#nextBtn:hover,
+#prevBtn:hover {
+    background: linear-gradient(145deg, #0077ff, #005fcc);
+    color: #fff;
+    transform: scale(1.1);
+}
+
+#nextBtn {
+    right: 10px;
+}
+
+#prevBtn {
+    left: 10px;
+}
+
+@media (max-width: 768px) {
+    .main-container {
+        flex-direction: column;
+    }
+
+    .col-1 {
+        flex-direction: row;
+    }
+
+    .item img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .carousel {
+        max-width: 90%;
+    }
+}
