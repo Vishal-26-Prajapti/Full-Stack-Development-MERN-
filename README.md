@@ -118,6 +118,19 @@ https://vls-cos-quick-url-application.netlify.app/
 🔗 GitHub Pages:  
 https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-10_-Quick-URL-Application/
 
+---
+
+🔹 Day 11 – Image Carousel Application
+
+A responsive Image Carousel web application that allows users to view multiple images of a product.
+Users can navigate through slides using arrows, thumbnails, or keyboard keys, and the carousel also autoplays with pause-on-hover functionality.
+
+🔗 Live Demo (Netlify):  
+https://vlp-cos-image-carousel.netlify.app/
+
+🔗 GitHub Pages: 
+https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-11_Image-Carousel-Project/
+
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
