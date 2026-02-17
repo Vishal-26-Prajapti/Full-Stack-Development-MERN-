@@ -143,6 +143,17 @@ https://vlp-cos-stop-watch.netlify.app/
 🔗 GitHub Pages: 
 https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-12_Stop-Watch/
 
+---
+
+### 🔹 Day 13 – CSS Image Style Controller
+An interactive tool that allows real-time image styling using CSS variables and JavaScript, including controls for color, scale, padding, border-radius, and blur.  
+
+🔗 Live Demo (Netlify):  
+https://vlp-cos-image-controller.netlify.app/
+
+🔗 GitHub Pages: 
+https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-13_Image-Controller/
+
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
