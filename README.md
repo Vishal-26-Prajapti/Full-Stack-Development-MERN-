@@ -131,6 +131,18 @@ https://vlp-cos-image-carousel.netlify.app/
 🔗 GitHub Pages: 
 https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-11_Image-Carousel-Project/
 
+---
+
+### 🔹 Day 12 – Stopwatch Application
+A modern stopwatch app with start, pause, and reset functionality, featuring a glassmorphism UI and smooth animations.  
+Built using HTML, CSS, and JavaScript.
+
+🔗 Live Demo (Netlify):  
+https://vlp-cos-stop-watch.netlify.app/
+
+🔗 GitHub Pages: 
+https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-12_Stop-Watch/
+
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
