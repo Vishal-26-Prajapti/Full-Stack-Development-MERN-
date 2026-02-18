@@ -154,6 +154,17 @@ https://vlp-cos-image-controller.netlify.app/
 🔗 GitHub Pages: 
 https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-13_Image-Controller/
 
+---
+
+### 🔹 Day 14 – Internet Status Checker
+A real-time internet connection status checker that detects online/offline state, displays public IP address, and shows network speed using browser APIs.  
+
+🔗 Live Demo (Netlify):  
+https://vlp-cos-internet-status-checker.netlify.app/
+
+🔗 GitHub Pages: 
+https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-14_Internet-Status-Checker/
+
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
