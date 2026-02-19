@@ -165,6 +165,17 @@ https://vlp-cos-internet-status-checker.netlify.app/
 🔗 GitHub Pages: 
 https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-14_Internet-Status-Checker/
 
+---
+
+### 🔹 Day 15 – Italian Leather Perfume Landing Page
+A modern and professional perfume product landing page UI built using HTML and CSS. It includes hero section, product showcase, testimonials, Instagram section, and structured footer.
+
+🔗 Live Demo (Netlify):  
+https://vlp-cos-italian-leather-perfume.netlify.app/
+
+🔗 GitHub Pages: 
+https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-15_Italian-leather-perfume-UI/
+
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
