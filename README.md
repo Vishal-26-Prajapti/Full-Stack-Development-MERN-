@@ -171,7 +171,7 @@ https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-14_Interne
 A modern and professional perfume product landing page UI built using HTML and CSS. It includes hero section, product showcase, testimonials, Instagram section, and structured footer.
 
 🔗 Live Demo (Netlify):  
-https://vlp-cos-italian-leather-perfume.netlify.app/
+https://vlp-cos-italian-leather-perfume-ui.netlify.app/
 
 🔗 GitHub Pages: 
 https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-15_Italian-leather-perfume-UI/
