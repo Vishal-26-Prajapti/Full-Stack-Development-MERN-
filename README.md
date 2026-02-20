@@ -176,6 +176,16 @@ https://vlp-cos-italian-leather-perfume-ui.netlify.app/
 🔗 GitHub Pages: 
 https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-15_Italian-leather-perfume-UI/
 
+### 🔹 Day 16 – Modern Photo Gallery UI
+
+A modern and responsive photo gallery built using HTML and CSS Grid featuring dynamic layouts, hover animations, and overlay effects. This project demonstrates real-world gallery layout techniques using CSS Grid and responsive design principles.
+
+🔗 Live Demo (Netlify):
+https://vls-cos-photo-gallery-ui.netlify.app/
+
+🔗 GitHub Pages: 
+https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-16_Photo-Gallary/
+
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
