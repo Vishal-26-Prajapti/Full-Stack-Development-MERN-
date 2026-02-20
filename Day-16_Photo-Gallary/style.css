@@ -25,6 +25,13 @@ body {
     box-shadow: var(--shadow);
 }
 
+/* Header */
+
+.header {
+    text-align: center;
+    padding: 80px 0 30px;
+}
+
 /* Container */
 
 .container {
@@ -34,13 +41,6 @@ body {
 
 .container h1, p{
     margin-bottom: 20px;
-}
-
-/* Header */
-
-.header {
-    text-align: center;
-    padding: 80px 0 30px;
 }
 
 /* Gallery */
