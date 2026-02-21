@@ -32,7 +32,8 @@ body {
     margin: auto;
 }
 
-.container h1, p{
+.container h1,
+p {
     margin-bottom: 20px;
 }
 
@@ -85,7 +86,7 @@ body {
 .overlay {
     position: absolute;
     inset: 0;
-    background:rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.4);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,6 +120,7 @@ body {
         transform: scale(0.8);
         opacity: 0;
     }
+
     to {
         transform: scale(1);
         opacity: 1;
