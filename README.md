@@ -77,6 +77,9 @@ https://vlp-cos-warsty.netlify.app/
 ### 🔹 Day 07 – Profile Card UI Design
 A modern profile card UI featuring a profile image, social media icons, action buttons, and engagement analytics, built using pure HTML and CSS.  
 
+🔗 Live Demo (Vercel):  
+https://vishal-cos-profile-card-ui.vercel.app/
+
 🔗 Live Demo (Netlify):  
 https://vlp-cos-profit-card.netlify.app/  
 
@@ -87,6 +90,9 @@ https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-07_Profile
 
 ### 🔹 Day 08 – NovaTech | Modern Tech Landing Page
 A modern and visually engaging tech landing page featuring a video background hero section, smooth animations, and clean UI layout, built using HTML and CSS.  
+
+🔗 Live Demo (Vercel): 
+https://vishal-cos-novatech.vercel.app/
 
 🔗 Live Demo (Netlify):  
 https://vlp-cos-novatech.netlify.app/
@@ -100,6 +106,9 @@ https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-08%20NovaT
 A web-based speech to text converter that transforms live voice input into text using the JavaScript Web Speech API.  
 It supports continuous speech recognition with real-time text updates and a scrollable output area for long inputs.
 
+🔗 Live Demo (Vercel):  
+https://vishal-cos-speech-to-text-converter.vercel.app/
+
 🔗 Live Demo (Netlify):  
 https://vlp-cos-speech-to-text-converter.netlify.app/
 
@@ -111,6 +120,9 @@ https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-09_Speech-
 ### 🔹 Day 10 – Quick URLs Application
 A simple bookmark manager web app that allows users to add, view, and delete website URLs.  
 Bookmarks are stored using browser localStorage, ensuring persistence across sessions.
+
+🔗 Live Demo (Vercel):  
+https://vishal-cos-quick-url-application.vercel.app/
 
 🔗 Live Demo (Netlify):  
 https://vls-cos-quick-url-application.netlify.app/
@@ -125,6 +137,9 @@ https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-10_-Quick-
 A responsive Image Carousel web application that allows users to view multiple images of a product.
 Users can navigate through slides using arrows, thumbnails, or keyboard keys, and the carousel also autoplays with pause-on-hover functionality.
 
+🔗 Live Demo (Vercel):  
+https://vishal-cos-image-carousel.vercel.app/
+
 🔗 Live Demo (Netlify):  
 https://vlp-cos-image-carousel.netlify.app/
 
@@ -137,6 +152,9 @@ https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-11_Image-C
 A modern stopwatch app with start, pause, and reset functionality, featuring a glassmorphism UI and smooth animations.  
 Built using HTML, CSS, and JavaScript.
 
+🔗 Live Demo (Vercel):  
+https://vishal-cos-stopwatch-app.vercel.app/
+
 🔗 Live Demo (Netlify):  
 https://vlp-cos-stop-watch.netlify.app/
 
@@ -148,8 +166,8 @@ https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-12_Stop-Wa
 ### 🔹 Day 13 – CSS Image Style Controller
 An interactive tool that allows real-time image styling using CSS variables and JavaScript, including controls for color, scale, padding, border-radius, and blur.  
 
-🔗 Live Demo (Netlify):  
-https://vlp-cos-image-controller.netlify.app/
+🔗 Live Demo (Vercel):  
+https://vishal-cos-image-controller.vercel.app/
 
 🔗 GitHub Pages: 
 https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-13_Image-Controller/
@@ -158,6 +176,9 @@ https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-13_Image-C
 
 ### 🔹 Day 14 – Internet Status Checker
 A real-time internet connection status checker that detects online/offline state, displays public IP address, and shows network speed using browser APIs.  
+
+🔗 Vercel Live Demo:
+https://vishal-cos-internet-status-checker.vercel.app/
 
 🔗 Live Demo (Netlify):  
 https://vlp-cos-internet-status-checker.netlify.app/
@@ -170,6 +191,9 @@ https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-14_Interne
 ### 🔹 Day 15 – Italian Leather Perfume Landing Page
 A modern and professional perfume product landing page UI built using HTML and CSS. It includes hero section, product showcase, testimonials, Instagram section, and structured footer.
 
+🔗 Vercel Live Demo:
+https://vishal-cos-italian-leather-perfume.vercel.app/
+
 🔗 Live Demo (Netlify):  
 https://vlp-cos-italian-leather-perfume-ui.netlify.app/
 
@@ -181,6 +205,9 @@ https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-15_Italian
 ### 🔹 Day 16 – Modern Photo Gallery UI
 
 A modern and responsive photo gallery built using HTML and CSS Grid featuring dynamic layouts, hover animations, and overlay effects. This project demonstrates real-world gallery layout techniques using CSS Grid and responsive design principles.
+
+🔗 Vercel Live Demo:
+https://vishal-cos-photo-gallery-ui.vercel.app/
 
 🔗 Live Demo (Netlify):
 https://vls-cos-photo-gallery-ui.netlify.app/
