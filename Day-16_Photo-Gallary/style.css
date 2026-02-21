@@ -18,11 +18,11 @@ body {
     color: var(--text);
 }
 
-.main {
-    background: var(--white);
-    border-radius: 20px;
-    padding: 30px;
-    box-shadow: var(--shadow);
+/* Header */
+
+.header {
+    text-align: center;
+    padding: 80px 0 30px;
 }
 
 /* Container */
@@ -37,11 +37,11 @@ p {
     margin-bottom: 20px;
 }
 
-/* Header */
-
-.header {
-    text-align: center;
-    padding: 80px 0 30px;
+.main {
+    background: var(--white);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: var(--shadow);
 }
 
 /* Gallery */
