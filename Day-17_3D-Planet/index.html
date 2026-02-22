@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Planet</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">
+            Vishal<span>.</span>
+        </div>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Projects</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+
+        <button class="contact-btn">
+            Contact Me
+        </button>
+    </header>
+
+    <main class="hero">
+        <div class="hero-content">
+            <p class="intro">Hello, I'm</p>
+            <h1 class="title">
+                WEB DEVELOPER
+            </h1>
+            <p class="location">
+                Based in India 🇮🇳
+            </p>
+            <p class="bio">
+                I create modern, high-performance and visually stunning web
+                experiences using HTML, CSS, JavaScript and MERN stack.
+            </p>
+        </div>
+
+        <spline-viewer class="planet-3D" url="https://prod.spline.design/MrpLKhmjmvDLdfjI/scene.splinecode">
+        </spline-viewer>
+    </main>
+
+    <div class="scroll-down"></div>
+
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.12.58/build/spline-viewer.js">
+    </script>
+
+</body>
+
+</html>

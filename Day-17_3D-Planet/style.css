@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(90deg, #1d2829 0%, #181e1f 20%, #131314 50%, #181e1f 80%, #1d2829 100%);
+    color: white;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 60px;
+    position: relative;
+    z-index: 1000;
+}
+
+/* LOGO */
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.logo span {
+    color: #76b0ab;
+}
+
+/* NAVIGATION LINKS */
+nav {
+    display: flex;
+    gap: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #aaa;
+    font-size: 14px;
+    transition: .3s;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* CONTACT BUTTON */
+.contact-btn {
+    padding: 10px 22px;
+    background: rgba(255, 255, 255, .05);
+    border: 1px solid rgba(255, 255, 255, .2);
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.contact-btn:hover {
+    background: #76b0ab;
+}
+
+/* HERO SECTION */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    min-height: 85vh;
+}
+
+.hero-content {
+    max-width: 550px;
+    z-index: 10;
+    position: relative;
+}
+
+.intro {
+    color: #76b0ab;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 80px;
+    font-weight: 800;
+    background: linear-gradient(#888, #fff);
+    background-clip: text;
+    color: transparent;
+}
+
+.location {
+    margin-top: 10px;
+    color: #ccc;
+}
+
+.bio {
+    margin-top: 20px;
+    line-height: 1.7;
+    color: #aaa;
+}
+
+.planet-3D {
+    position: absolute;
+    right: -1%;
+    top: -10%;
+    width: 900px;
+    height: 900px;
+    z-index: 1;
+}
+
+/* SCROLL INDICATOR */
+.scroll-down {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 25px;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.scroll-down::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 6px;
+    height: 6px;
+    background: white;
+    border-radius: 50%;
+    animation: scroll 2s infinite;
+}
+
+@keyframes scroll {
+    0% {
+        top: 10px;
+        opacity: 1;
+    }
+
+    100% {
+        top: 30px;
+        opacity: 0;
+    }
+}
+
+@media(max-width:900px) {
+    .title {
+        font-size: 45px;
+    }
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+    nav {
+        display: none;
+    }
+}
