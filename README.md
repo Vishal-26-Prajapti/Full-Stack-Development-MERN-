@@ -174,6 +174,27 @@ A modern and responsive photo gallery built using HTML and CSS Grid featuring dy
 
 🔗 GitHub Pages: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-16_Photo-Gallary/
 
+---
+
+### 🔹 Day 17 – Italian Leather Perfume Landing Page (Fully Responsive Enhancement)
+
+Enhanced the Day 15 perfume landing page and converted it into a fully mobile responsive design. This update ensures the layout adapts smoothly across all screen sizes including mobile, tablet, and desktop, providing a consistent and professional user experience.
+
+🔗 Vercel Live Demo: https://vishal-cos-italian-leather-perfume.vercel.app/
+
+🔗 GitHub Pages: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-15_Italian-leather-perfume-UI/
+
+---
+
+### 🔹 Day 18 – 3D Planet Portfolio Hero Section
+
+A modern and futuristic portfolio hero section featuring an interactive 3D planet integrated using Spline. This project demonstrates how to combine modern UI design with immersive 3D elements to create visually engaging web experiences and professional portfolio layouts.
+
+🔗 Live Demo (Vercel):
+https://vishal-cos-3d-planet.vercel.app/
+
+🔗 GitHub Pages: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-18_3D-Planet/
+
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
