@@ -195,6 +195,16 @@ https://vishal-cos-3d-planet.vercel.app/
 
 🔗 GitHub Pages: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-18_3D-Planet/
 
+---
+
+🔹 Day 19 – 3D Tic Tac Toe Game UI
+
+A futuristic and responsive Tic Tac Toe game interface built using HTML and CSS featuring neon glow effects, 3D styling, and modern game UI design. This project demonstrates advanced CSS techniques including Grid layout, perspective, responsive sizing, and hover animations.
+
+🔗 Vercel Live Demo: https://vishal-cos-tic-tac-toe.vercel.app/
+
+🔗 GitHub Pages: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-19_Tic-Tac-Toe/
+
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
