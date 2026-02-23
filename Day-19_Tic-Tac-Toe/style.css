@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #050510, #0a0a1a, #050510);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    overflow-x: hidden;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.title {
+    font-size: clamp(28px, 6vw, 48px);
+    margin-bottom: 10px;
+    color: cyan;
+    text-shadow:
+        0 0 10px cyan,
+        0 0 20px cyan,
+        0 0 40px cyan;
+}
+
+.status {
+    font-size: clamp(16px, 4vw, 24px);
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+.board-container {
+    perspective: 1000px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns:
+        repeat(3, clamp(70px, 20vw, 120px));
+    gap: clamp(8px, 2vw, 15px);
+    padding: clamp(10px, 2vw, 15px);
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    transform-style: preserve-3d;
+    transition: 0.3s;
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.6),
+        inset 0 0 20px rgba(0, 255, 255, 0.1);
+}
+
+.cell {
+    width: clamp(70px, 20vw, 120px);
+    height: clamp(70px, 20vw, 120px);
+    font-size: clamp(24px, 6vw, 48px);
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(145deg,
+            #0a0a1a,
+            #050510);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    transform-style: preserve-3d;
+    box-shadow:
+        0 5px 15px rgba(0, 0, 0, 0.5),
+        inset 0 0 10px rgba(0, 255, 255, 0.1);
+}
+
+.cell:hover {
+    transform:
+        translateY(-5px) scale(1.05);
+    box-shadow:
+        0 0 15px cyan,
+        0 0 30px cyan;
+}
+
+.restart {
+    margin-top: 25px;
+    font-size: clamp(14px, 3vw, 20px);
+    padding:
+        clamp(8px, 2vw, 12px) clamp(20px, 5vw, 40px);
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(90deg,
+            cyan,
+            #00ffffaa);
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 0 0 15px cyan;
+}
+
+.restart:hover {
+    transform: scale(1.1);
+    box-shadow:
+        0 0 20px cyan,
+        0 0 40px cyan;
+}
