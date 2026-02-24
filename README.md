@@ -108,7 +108,7 @@ Bookmarks are stored using browser localStorage, ensuring persistence across ses
 
 ---
 
-🔹 Day 11 – Image Carousel Application
+###🔹 Day 11 – Image Carousel Application
 
 A responsive Image Carousel web application that allows users to view multiple images of a product.
 Users can navigate through slides using arrows, thumbnails, or keyboard keys, and the carousel also autoplays with pause-on-hover functionality.
@@ -197,13 +197,23 @@ https://vishal-cos-3d-planet.vercel.app/
 
 ---
 
-🔹 Day 19 – 3D Tic Tac Toe Game UI
+###🔹 Day 19 – 3D Tic Tac Toe Game UI
 
 A futuristic and responsive Tic Tac Toe game interface built using HTML and CSS featuring neon glow effects, 3D styling, and modern game UI design. This project demonstrates advanced CSS techniques including Grid layout, perspective, responsive sizing, and hover animations.
 
 🔗 Vercel Live Demo: https://vishal-cos-tic-tac-toe.vercel.app/
 
 🔗 GitHub Pages: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-19_Tic-Tac-Toe/
+
+### 🔹 Day 20 – SOLARRIUS Dashboard UI
+
+A modern and fully responsive dashboard UI built using HTML and CSS featuring sidebar navigation, learning progress section, profile panel, and structured dashboard layout. This project demonstrates real-world dashboard design techniques using Flexbox, responsive sizing, and professional UI structuring.
+
+🔗 Live Demo (Vercel):
+https://vishal-cos-sollarious-profile.vercel.app/
+
+🔗 GitHub Repository:
+https://github.com/Vishal-26-Prajapti/Full-Stack-Development-MERN-
 
 ## 🛠️ Tech Stack
 - HTML5  
