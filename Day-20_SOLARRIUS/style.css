@@ -17,12 +17,14 @@ main {
     gap: clamp(10px, 3vw, 30px);
 }
 
+/* Section-1 */
+
 .sollarious {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: clamp(20px, 10vh, 120px);
+    gap: clamp(20px, 100vh, 300px);
     padding: 15px;
 }
 
@@ -30,7 +32,6 @@ main {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    align-items: center;
 }
 
 .sol-div-1 img {
@@ -45,7 +46,10 @@ main {
 .sol-div-1 .resources ul {
     list-style: none;
     margin-top: 20px;
+    margin-left: 50px;
 }
+
+/* Section-2 */
 
 .section-2 {
     display: flex;
@@ -62,7 +66,12 @@ main {
 .plan-sec-2 {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .plan-img {
@@ -71,10 +80,11 @@ main {
 }
 
 .plan-img img {
-    width: 100%;
-    max-width: 170px;
-    height: auto;
+    width: 48%;
+    height: 200px;
 }
+
+/* Section-3 */
 
 .section-3 {
     display: flex;
@@ -161,9 +171,11 @@ main {
     margin-bottom: 5px;
 }
 
+/* Section-4 */
+
 .section-4 {
     background-color: #f5bd98;
-    width: clamp(80px, 10vw, 150px);
+    width: clamp(80px, 20vw, 150px);
     min-height: 90vh;
     border-radius: 10px;
 }
@@ -204,56 +216,4 @@ main {
 
 .profile-bottom ul li {
     font-size: clamp(16px, 2vw, 20px);
-}
-
-@media (max-width: 1024px) {
-
-    main {
-        flex-wrap: wrap;
-    }
-
-    .section-2 {
-        width: 100%;
-        order: 2;
-    }
-
-    .section-3 {
-        width: 100%;
-        order: 3;
-    }
-
-    .section-4 {
-        order: 4;
-        width: 100%;
-        min-height: auto;
-    }
-
-    .profile {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-}
-
-@media (max-width: 600px) {
-
-    main {
-        flex-direction: column;
-    }
-
-    .sollarious {
-        flex-direction: row;
-        justify-content: space-between;
-        width: 100%;
-    }
-
-    .section-2,
-    .section-3,
-    .section-4 {
-        width: 100%;
-    }
-
-    .profile {
-        flex-direction: row;
-    }
-
 }
