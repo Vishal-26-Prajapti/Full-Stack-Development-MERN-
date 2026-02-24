@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(235, 223, 209);
+}
+
+main {
+    display: flex;
+    align-items: stretch;
+    padding: 15px;
+    min-height: 100vh;
+    gap: clamp(10px, 3vw, 30px);
+}
+
+.sollarious {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: clamp(20px, 10vh, 120px);
+    padding: 15px;
+}
+
+.sol-div-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.sol-div-1 img {
+    width: clamp(35px, 5vw, 50px);
+    border-radius: 50%;
+}
+
+.dashboard {
+    margin-top: 10px;
+}
+
+.sol-div-1 .resources ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: clamp(10px, 2vw, 20px);
+    width: clamp(250px, 30%, 400px);
+    min-height: 90vh;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.plan-sec-1,
+.plan-sec-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plan-img {
+    display: flex;
+    gap: 10px;
+}
+
+.plan-img img {
+    width: 100%;
+    max-width: 170px;
+    height: auto;
+}
+
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    padding: clamp(10px, 2vw, 20px);
+    min-height: 90vh;
+    flex: 1;
+    gap: 20px;
+}
+
+.sec-3-con-1-top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.sec-3-con-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.feed-logo {
+    width: 22px;
+    height: 22px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.learning {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.sec-3-bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.section-3 img {
+    width: clamp(50px, 6vw, 70px);
+    height: clamp(50px, 6vw, 70px);
+}
+
+.sec-3-bottom-1 {
+    display: flex;
+    gap: 10px;
+}
+
+.virus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.virus p {
+    margin-bottom: 5px;
+}
+
+.section-4 {
+    background-color: #f5bd98;
+    width: clamp(80px, 10vw, 150px);
+    min-height: 90vh;
+    border-radius: 10px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+    gap: clamp(20px, 10vh, 120px);
+    padding: 15px 0;
+}
+
+.profile-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-top img {
+    width: clamp(40px, 6vw, 70px);
+    border-radius: 50%;
+}
+
+.profile-top p {
+    font-size: clamp(12px, 1vw, 14px);
+}
+
+.profile-bottom ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.profile-bottom ul li {
+    font-size: clamp(16px, 2vw, 20px);
+}
+
+@media (max-width: 1024px) {
+
+    main {
+        flex-wrap: wrap;
+    }
+
+    .section-2 {
+        width: 100%;
+        order: 2;
+    }
+
+    .section-3 {
+        width: 100%;
+        order: 3;
+    }
+
+    .section-4 {
+        order: 4;
+        width: 100%;
+        min-height: auto;
+    }
+
+    .profile {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 600px) {
+
+    main {
+        flex-direction: column;
+    }
+
+    .sollarious {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .section-2,
+    .section-3,
+    .section-4 {
+        width: 100%;
+    }
+
+    .profile {
+        flex-direction: row;
+    }
+
+}
