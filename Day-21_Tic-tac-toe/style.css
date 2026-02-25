@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: Orbitron, sans-serif;
+    background: linear-gradient(135deg, #050510, #0a0a1a, #050510);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+}
+
+.title {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: cyan;
+    text-shadow: 0 0 20px cyan;
+}
+
+.status {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.board-container {
+    perspective: 800px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+    transform-style: preserve-3d;
+    transition: 0.2s;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+    border: none;
+    border-radius: 10px;
+    background: #111;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.cell:hover {
+    transform: translateZ(20px) scale(1.1);
+    box-shadow: 0 0 20px cyan;
+}
+
+.cell.x {
+    color: cyan;
+    text-shadow: 0 0 20px cyan;
+}
+
+.cell.o {
+    color: magenta;
+    text-shadow: 0 0 20px magenta;
+}
+
+.cell.win {
+    background: gold;
+    color: black;
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.restart {
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background: cyan;
+    color: black;
+    transition: 0.3s;
+}
+
+.restart:hover {
+    box-shadow: 0 0 20px cyan;
+}
