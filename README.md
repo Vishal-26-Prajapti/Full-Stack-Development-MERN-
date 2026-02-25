@@ -209,11 +209,9 @@ A futuristic and responsive Tic Tac Toe game interface built using HTML and CSS 
 
 A modern and fully responsive dashboard UI built using HTML and CSS featuring sidebar navigation, learning progress section, profile panel, and structured dashboard layout. This project demonstrates real-world dashboard design techniques using Flexbox, responsive sizing, and professional UI structuring.
 
-🔗 Live Demo (Vercel):
-https://vishal-cos-sollarious-profile.vercel.app/
+🔗 Live Demo (Vercel): https://vishal-cos-sollarious-profile.vercel.app/
 
-🔗 GitHub Repository:
-https://github.com/Vishal-26-Prajapti/Full-Stack-Development-MERN-
+🔗 GitHub Pages: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-20_SOLARRIUS/
 
 ## 🛠️ Tech Stack
 - HTML5  
