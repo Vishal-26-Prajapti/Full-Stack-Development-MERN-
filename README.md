@@ -221,11 +221,9 @@ A fully interactive 3D Tic Tac Toe game built using HTML, CSS, and JavaScript fe
 
 This project demonstrates practical JavaScript concepts like state management, DOM manipulation, event handling, and game logic implementation along with modern CSS animations and 3D transforms.
 
-🔗 Live Demo (Vercel):
-https://vishal-cos-tic-tac-toe1.vercel.app/
+🔗 Live Demo (Vercel): https://vishal-cos-tic-tac-toe1.vercel.app/
 
-🔗 GitHub Repository:
-https://github.com/Vishal-26-Prajapti/Full-Stack-Development-MERN-/Day-21_Tic-tac-toe/
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-//Day-21_Tic-tac-toe/
 
 ## 🛠️ Tech Stack
 - HTML5  
