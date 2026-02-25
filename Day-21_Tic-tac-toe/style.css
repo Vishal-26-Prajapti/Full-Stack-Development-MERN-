@@ -2,23 +2,20 @@ body {
     margin: 0;
     font-family: Orbitron, sans-serif;
     background: linear-gradient(135deg, #050510, #0a0a1a, #050510);
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-    overflow-x: hidden;
-    padding: 15px;
+    overflow: hidden;
 }
 
 .container {
     text-align: center;
-    width: 100%;
-    max-width: 500px;
 }
 
 .title {
-    font-size: clamp(24px, 5vw, 40px);
+    font-size: 40px;
     margin-bottom: 10px;
     color: cyan;
     text-shadow: 0 0 20px cyan;
@@ -26,7 +23,7 @@ body {
 
 .status {
     margin-bottom: 20px;
-    font-size: clamp(14px, 3vw, 20px);
+    font-size: 20px;
 }
 
 .board-container {
@@ -35,9 +32,9 @@ body {
 
 .board {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: clamp(6px, 2vw, 10px);
-    padding: clamp(8px, 2vw, 10px);
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    padding: 10px;
     background: rgba(0, 0, 0, 0.4);
     border-radius: 15px;
     transform-style: preserve-3d;
@@ -45,8 +42,9 @@ body {
 }
 
 .cell {
-    aspect-ratio: 1 / 1; 
-    font-size: clamp(24px, 6vw, 40px);
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
     border: none;
     border-radius: 10px;
     background: #111;
@@ -56,11 +54,9 @@ body {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 
-@media (hover: hover) {
-    .cell:hover {
-        transform: translateZ(20px) scale(1.1);
-        box-shadow: 0 0 20px cyan;
-    }
+.cell:hover {
+    transform: translateZ(20px) scale(1.1);
+    box-shadow: 0 0 20px cyan;
 }
 
 .cell.x {
@@ -70,6 +66,7 @@ body {
 
 .cell.o {
     color: magenta;
+    
     text-shadow: 0 0 20px magenta;
 }
 
@@ -80,15 +77,21 @@ body {
 }
 
 @keyframes pulse {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.08); }
-    100% { transform: scale(1); }
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
 .restart {
     margin-top: 20px;
-    padding: 10px 25px;
-    font-size: clamp(14px, 3vw, 18px);
+    padding: 10px 30px;
+    font-size: 18px;
     border: none;
     border-radius: 30px;
     cursor: pointer;
