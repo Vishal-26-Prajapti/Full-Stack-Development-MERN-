@@ -213,6 +213,20 @@ A modern and fully responsive dashboard UI built using HTML and CSS featuring si
 
 🔗 GitHub Pages: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-20_SOLARRIUS/
 
+---
+
+### 🔹 Day 21 – 3D Tic Tac Toe (Fully Functional Game)
+
+A fully interactive 3D Tic Tac Toe game built using HTML, CSS, and JavaScript featuring real-time player turns, win detection logic, draw detection, restart functionality, and dynamic 3D board rotation effects.
+
+This project demonstrates practical JavaScript concepts like state management, DOM manipulation, event handling, and game logic implementation along with modern CSS animations and 3D transforms.
+
+🔗 Live Demo (Vercel):
+https://vishal-cos-tic-tac-toe1.vercel.app/
+
+🔗 GitHub Repository:
+https://github.com/Vishal-26-Prajapti/Full-Stack-Development-MERN-/Day-21_Tic-tac-toe/
+
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
