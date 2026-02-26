@@ -227,13 +227,13 @@ This project demonstrates practical JavaScript concepts like state management, D
 
 ---
 
-🔹 Day 22 – NovaX Smart Digital Platform
+### 🔹 Day 22 – NovaX Smart Digital Platform
 
 A modern and fully responsive SaaS-style landing page built using HTML, CSS, and JavaScript. The project features a fixed animated navbar, hero section with background overlay, feature cards grid, responsive image gallery, and mobile hamburger menu.
 
 This project demonstrates responsive web design principles, CSS Grid layouts, Flexbox alignment, animations, and basic DOM manipulation for interactive navigation.
 
-🔗 Live Demo: https://vishal-cos-novax.netlify.app/
+🔗 Live Demo: https://vishal-cos-novax.vercel.app/
 
 🔗 GitHub Repository: https://github.com/Vishal-26-Prajapti/Full-Stack-Development-MERN-/Day-22_NovaX/
 
