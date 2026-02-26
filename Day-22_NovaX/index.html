@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NovaX – Smart Digital Platform</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="navbar">
+    <h2 class="logo">NovaX</h2>
+
+    <div class="menu-toggle" id="menu-toggle">
+      ☰
+    </div>
+
+    <nav id="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Features</a>
+      <a href="#">Pricing</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Build Faster. Launch Smarter.</h1>
+      <p>Next-gen digital solutions crafted for modern businesses.</p>
+      <a href="#" class="btn">Get Started</a>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="card">
+      <h3>⚡ Fast</h3>
+      <p>Optimized performance with modern UI experience.</p>
+    </div>
+    <div class="card">
+      <h3>🎨 Design</h3>
+      <p>Clean, professional and conversion-focused layouts.</p>
+    </div>
+    <div class="card">
+      <h3>🔒 Secure</h3>
+      <p>Built with best practices for reliability and trust.</p>
+    </div>
+  </section>
+
+  <section class="gallery">
+    <img src="./image/image-1.png" alt="Image 1">
+    <img src="./image/image-2.png" alt="Image 2">
+    <img src="./image/image-3.png" alt="Image 3">
+  </section>
+
+  <footer>
+    <p>© 2026 NovaX. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const menuToggle = document.getElementById("menu-toggle");
+    const navLinks = document.getElementById("nav-links");
+
+    menuToggle.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+    });
+  </script>
+
+</body>
+</html>
