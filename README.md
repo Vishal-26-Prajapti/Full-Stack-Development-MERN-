@@ -225,6 +225,18 @@ This project demonstrates practical JavaScript concepts like state management, D
 
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-//Day-21_Tic-tac-toe/
 
+---
+
+### 🔹 Day 22 – NovaX Smart Digital Platform
+
+A modern and fully responsive SaaS-style landing page built using HTML, CSS, and JavaScript. The project features a fixed animated navbar, hero section with background overlay, feature cards grid, responsive image gallery, and mobile hamburger menu.
+
+This project demonstrates responsive web design principles, CSS Grid layouts, Flexbox alignment, animations, and basic DOM manipulation for interactive navigation.
+
+🔗 Live Demo: https://vishal-cos-novax.vercel.app/
+
+🔗 GitHub Repository: https://github.com/Vishal-26-Prajapti/Full-Stack-Development-MERN-/Day-22_NovaX/
+
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
