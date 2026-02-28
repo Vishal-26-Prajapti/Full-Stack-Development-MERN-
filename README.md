@@ -235,7 +235,19 @@ This project demonstrates responsive web design principles, CSS Grid layouts, Fl
 
 🔗 Live Demo: https://vishal-cos-novax.vercel.app/
 
-🔗 GitHub Repository: https://github.com/Vishal-26-Prajapti/Full-Stack-Development-MERN-/Day-22_NovaX/
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-22_NovaX/
+
+---
+
+###🔹 Day 23 – WildLife Animated Carousel
+
+A modern and fully animated wildlife-themed carousel website built using HTML, CSS, and JavaScript. It features smooth next/previous transitions, auto-play slider functionality, animated content reveal effects, thumbnail navigation, and responsive layout design.
+
+This project demonstrates advanced CSS keyframe animations, DOM manipulation, timed transitions, and interactive UI development.
+
+🔗 Live Demo (Vercel): https://vishal-cos-wild-life.vercel.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-23_Wild-Life/
 
 ## 🛠️ Tech Stack
 - HTML5  
