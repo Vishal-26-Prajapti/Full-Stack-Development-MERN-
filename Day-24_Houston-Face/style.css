@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0f172a;
+}
+
+.card {
+    width: 260px;
+    height: 180px;
+    border-radius: 25px;
+    background: linear-gradient(135deg, #4f46e5, #9333ea, #22d3ee);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.1s ease;
+    perspective: 1000px;
+}
+
+.face {
+    width: 220px;
+    height: 140px;
+    background: #0f172a;
+    border-radius: 20px;
+    position: relative;
+}
+
+.eyes {
+    position: absolute;
+    top: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.eye {
+    width: 35px;
+    height: 35px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.pupil {
+    width: 15px;
+    height: 15px;
+    background: black;
+    border-radius: 50%;
+    position: relative;
+}
+
+.mouth {
+    width: 40px;
+    height: 20px;
+    border-bottom: 4px solid white;
+    border-radius: 0 0 50px 50px;
+    position: absolute;
+    bottom: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+}
