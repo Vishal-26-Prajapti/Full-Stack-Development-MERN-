@@ -249,6 +249,20 @@ This project demonstrates advanced CSS keyframe animations, DOM manipulation, ti
 
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-23_Wild-Life/
 
+---
+
+### 🔹 Day 24 – Interactive 3D Face Card
+
+A creative and interactive 3D animated face card built using HTML, CSS, and JavaScript. The card rotates based on mouse movement, and the pupils dynamically follow the cursor using mathematical angle calculations.
+
+This project demonstrates real-time DOM interaction, 3D transforms, perspective effects, and JavaScript animation logic using Math functions.
+
+🔗 Live Demo: https://vishal-cos-houston-face.vercel.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-24_Houston-Face/
+
+---
+
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
