@@ -263,6 +263,16 @@ This project demonstrates real-time DOM interaction, 3D transforms, perspective 
 
 ---
 
+### 🔹 Day 25 – 3D Futuristic Tic Tac Toe
+
+A fully functional Tic Tac Toe game built with HTML, CSS, and JavaScript featuring a futuristic neon 3D interface.
+
+🔗 Live Demo: https://vishal-cos-tic-tac-toe2.vercel.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-25_Tic-Tac-Toe/
+
+---
+
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
