@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 60vh;
+    background: linear-gradient(-45deg, #0396ff, #00c6ff, #6a11cb, #2575fc);
+    background-size: 400% 400%;
+    animation: gradientMove 10s ease infinite;
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 15px;
+    padding: 20px;
+}
+
+.icon-image {
+    position: relative;
+    height: 70px;
+    width: 70px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.icon-image:hover {
+    transform: translateY(-10px);
+}
+
+.icon-image img {
+    position: absolute;
+    height: 95%;
+    width: 95%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #0396ff;
+}
+
+.hover-img {
+    position: absolute;
+    height: 320px;
+    width: 260px;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%) scale(0.8);
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: 0.4s ease;
+    pointer-events: none;
+}
+
+.icon-image:hover .hover-img {
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+}
+
+.hover-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 3px solid #fff;
+}
+
+.content {
+    position: absolute;
+    width: 100%;
+    bottom: -10px;
+    left: 0;
+    padding: 0 10px;
+}
+
+.content .details {
+    background: #fff;
+    padding: 12px;
+    border-radius: 12px;
+    text-align: center;
+    transform: translateY(10px);
+    opacity: 0;
+    transition: 0.3s ease;
+}
+
+.icon-image:hover .details {
+    transform: translateY(0);
+    opacity: 1;
+    transition-delay: 0.3s;
+}
+
+.details .name {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.details .job {
+    font-size: 14px;
+    color: #0396ff;
+    margin-top: 3px;
+}
+
+@media (max-width: 768px) {
+    .hover-img {
+        height: 260px;
+        width: 220px;
+    }
+}
+
+@media (max-width: 480px) {
+    .icon-image {
+        height: 60px;
+        width: 60px;
+    }
+    .hover-img {
+        height: 220px;
+        width: 180px;
+        bottom: 90px;
+    }
+    .details .name {
+        font-size: 16px;
+    }
+    .details .job {
+        font-size: 13px;
+    }
+}
