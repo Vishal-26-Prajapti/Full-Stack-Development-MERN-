@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./Image/image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+
+.wrapper {
+    position: relative;
+    animation: float 3s ease-in-out infinite;
+}
+
+.cup {
+    position: relative;
+    width: 220px;
+    height: 180px;
+    background: #ffffff;
+    border-radius: 0 0 120px 120px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.handle {
+    position: absolute;
+    right: -55px;
+    top: 45px;
+    width: 90px;
+    height: 90px;
+    border: 15px solid #ffffff;
+    border-radius: 50%;
+}
+
+.eye {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    background: #333;
+    border-radius: 50%;
+    top: 75px;
+    animation: blink 4s infinite;
+}
+
+@keyframes blink {
+
+    0%,
+    95%,
+    100% {
+        height: 22px;
+    }
+
+    97% {
+        height: 3px;
+    }
+}
+
+.eye.left {
+    left: 65px;
+}
+
+.eye.right {
+    right: 65px;
+}
+
+.blush {
+    position: absolute;
+    width: 30px;
+    height: 15px;
+    background: #ffb6c1;
+    border-radius: 50%;
+    top: 105px;
+    opacity: 0.6;
+}
+
+.blush.left {
+    left: 45px;
+}
+
+.blush.right {
+    right: 45px;
+}
+
+.mouth {
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    border-bottom: 5px solid #333;
+    border-radius: 0 0 50px 50px;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: smile 2s ease-in-out infinite alternate;
+}
+
+.shadow {
+    width: 250px;
+    height: 25px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    margin-top: 20px;
+    filter: blur(6px);
+    animation: shadowMove 3s ease-in-out infinite;
+}
+
+.cup-text {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 22px;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    animation: floatText 3s ease-in-out infinite;
+}
+
+@keyframes floatText {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes shadowMove {
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 0.3;
+    }
+
+    50% {
+        transform: scale(0.8);
+        opacity: 0.15;
+    }
+}
+
+@keyframes smile {
+    from {
+        transform: translateX(-50%) scaleX(1);
+    }
+
+    to {
+        transform: translateX(-50%) scaleX(1.1);
+    }
+}
