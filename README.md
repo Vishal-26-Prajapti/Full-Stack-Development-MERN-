@@ -273,6 +273,25 @@ A fully functional Tic Tac Toe game built with HTML, CSS, and JavaScript featuri
 
 ---
 
+###🔹 Day 26 – Hover Profile Cards
+An interactive hover-based profile card component built using HTML and CSS.
+
+✨ Features:
+Circular profile icons
+Smooth hover expansion animation
+Image scaling effect
+Name & role display
+Responsive design
+Animated gradient background
+
+This project demonstrates strong understanding of CSS positioning, transitions, transforms, and responsive UI component design.
+
+🔗 Live Demo: https://vishal-cos-hover-profile-cards.vercel.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-26_hover-profile-cards/
+
+---
+
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
