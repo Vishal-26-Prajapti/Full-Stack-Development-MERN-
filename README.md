@@ -291,7 +291,21 @@ This project demonstrates strong understanding of CSS positioning, transitions, 
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-26_hover-profile-cards/
 
 ---
+###🔹 Day 27 – Cute Animated Coffee Cup
 
+A playful animated coffee cup component built using HTML and CSS.
+
+✨ Features:
+Cute cup with eyes, blush, and smiling mouth
+Blinking eyes animation
+Smiling mouth animation
+Floating cup and shadow effect
+Animated text below the cup
+Responsive and fun UI
+
+🔗 Live Demo: https://vishal-cos-coffee-cup.netlify.app/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
