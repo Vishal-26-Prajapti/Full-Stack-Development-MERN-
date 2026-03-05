@@ -325,6 +325,26 @@ This project demonstrates strong understanding of DOM manipulation, event handli
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-28_HSL-color-generator/
 
 ---
+
+### 🔹 Day 29 – ModernHub Animated Landing Page
+
+A fully responsive multi-section animated landing page built using HTML and CSS (no JavaScript).
+
+✨ Features:
+Fixed animated navigation bar
+Hero section with zoom & gradient animation
+Responsive feature cards
+Interactive image gallery
+Animated social icons
+Smooth scroll behavior
+Accessibility support (prefers-reduced-motion)
+
+This project demonstrates advanced CSS animation techniques, responsive design patterns, and professional landing page structure.
+
+🔗 Live Demo: https://vishal-cos-moderhub.netlify.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-29_ModernHub/
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
