@@ -306,6 +306,25 @@ Responsive and fun UI
 🔗 Live Demo: https://vishal-cos-coffee-cup.netlify.app/
 
 ---
+
+### 🔹 Day 28 – HSL Color Generator
+
+An interactive HSL Color Generator built using HTML, CSS, and JavaScript.
+
+✨ Features:
+Adjustable Hue, Saturation & Lightness sliders
+Real-time color preview
+Dynamic background update
+Copy-to-clipboard functionality
+Responsive design
+
+This project demonstrates strong understanding of DOM manipulation, event handling, real-time UI updates, and JavaScript Clipboard API.
+
+🔗 Live Demo (Vercel): https://vishal-cos-hsl-color-generator.vercel.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-28_HSL-color-generator/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
