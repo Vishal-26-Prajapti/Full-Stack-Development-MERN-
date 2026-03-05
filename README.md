@@ -344,6 +344,7 @@ This project demonstrates advanced CSS animation techniques, responsive design p
 🔗 Live Demo: https://vishal-cos-moderhub.netlify.app/
 
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-29_ModernHub/
+
 ---
 ## 🛠️ Tech Stack
 - HTML5  
