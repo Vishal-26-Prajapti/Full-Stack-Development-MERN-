@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Professional HSL Color Generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🎨 HSL Color Generator</h1>
+
+    <div class="color-display" id="colorDisplay"></div>
+
+    <div class="color-values">
+        <p id="hslOutput"></p>
+        <p id="rgbOutput"></p>
+        <p id="hexOutput"></p>
+    </div>
+
+    <div class="controls">
+
+        <div class="control">
+            <label>Hue</label>
+            <input type="range" id="hue" min="0" max="360" value="200">
+            <span id="hueValue">200</span>
+        </div>
+
+        <div class="control">
+            <label>Saturation</label>
+            <input type="range" id="saturation" min="0" max="100" value="70">
+            <span id="saturationValue">70%</span>
+        </div>
+
+        <div class="control">
+            <label>Lightness</label>
+            <input type="range" id="lightness" min="0" max="100" value="50">
+            <span id="lightnessValue">50%</span>
+        </div>
+
+    </div>
+
+    <div class="buttons">
+        <button id="randomBtn">Random</button>
+        <button id="copyBtn">Copy HEX</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
