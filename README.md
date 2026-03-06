@@ -346,6 +346,15 @@ This project demonstrates advanced CSS animation techniques, responsive design p
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-29_ModernHub/
 
 ---
+
+### 🔹 Day 30 – Advanced HSL Color Generator
+An upgraded version of the HSL Color Generator with additional features like RGB & HEX conversion, random color generation, and copy-to-clipboard functionality.
+
+🔗 Vercel Live Demo: https://vishal-cos-hsl-color-generator.vercel.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Da-30_HSL-RGB-HEX-color-generator/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
