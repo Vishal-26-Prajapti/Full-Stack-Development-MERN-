@@ -350,9 +350,9 @@ This project demonstrates advanced CSS animation techniques, responsive design p
 ### 🔹 Day 30 – Advanced HSL Color Generator
 An upgraded version of the HSL Color Generator with additional features like RGB & HEX conversion, random color generation, and copy-to-clipboard functionality.
 
-🔗 Vercel Live Demo: https://vishal-cos-hsl-color-generator.vercel.app/
+🔗 Vercel Live Demo: https://vishal-cos-hsl-rgb-hex-color-generator.vercel.app/
 
-🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Da-30_HSL-RGB-HEX-color-generator/
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-30_HSL-RGB-HEX-color-generator/
 
 ---
 ## 🛠️ Tech Stack
