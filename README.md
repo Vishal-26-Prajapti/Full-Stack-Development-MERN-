@@ -355,6 +355,16 @@ An upgraded version of the HSL Color Generator with additional features like RGB
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-30_HSL-RGB-HEX-color-generator/
 
 ---
+
+### 🔹 Day 31 – AI Face Pro (Upgraded AI Face Animation)
+
+An upgraded version of my Day-24 AI Face project featuring interactive cursor tracking, automatic blinking, random mood changes, and a Matrix-style animated background built with the Canvas API.
+
+🔗 Vercel Live Demo: https://vishal-cos-houstom-face.vercel.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-31_Houstom-Face/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
