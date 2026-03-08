@@ -365,6 +365,16 @@ An upgraded version of my Day-24 AI Face project featuring interactive cursor tr
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-31_Houstom-Face/
 
 ---
+
+### 🔹 Day 32 – 3D Stranger Things Carousel
+
+An interactive 3D carousel UI with drag rotation, inertia effects, dynamic background transitions, neon glow, and particle animations.
+
+🔗 Live Demo: https://vishal-cos-mobile-rotate.netlify.app/
+
+🔗 GitHub Repository:  https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-32_Mobile-Rotate/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
