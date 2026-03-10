@@ -375,6 +375,16 @@ An interactive 3D carousel UI with drag rotation, inertia effects, dynamic backg
 🔗 GitHub Repository:  https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-32_Mobile-Rotate/
 
 ---
+
+### 🔹 Day 33 – 3D Calculator UI
+
+A modern 3D calculator with a neumorphic UI design that performs basic arithmetic operations using JavaScript.
+
+🔗 Live Demo: https://vishal-cos-calculator.netlify.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-33_Calculator-Application
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
