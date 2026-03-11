@@ -397,6 +397,18 @@ This project demonstrates DOM manipulation, keyboard event handling, mathematica
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-34_Calculator
 
 ---
+
+###🔹 Day 35 – Diamonds Store Landing Page
+
+A modern and elegant jewelry store landing page built using HTML and CSS. The design showcases a luxury diamond and gemstone collection with multiple sections including a hero banner, stone categories, jewelry styles, product showcases, and a detailed footer.
+
+This project demonstrates responsive layout structuring, Flexbox alignment, hover animations, image scaling effects, fixed navigation header, and UI styling using modern CSS techniques.
+
+🔗 Live Demo: https://vishal-cos-diamonds-store.netlify.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-35_Diamonds-Store/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
