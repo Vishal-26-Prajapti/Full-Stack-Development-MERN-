@@ -385,6 +385,18 @@ A modern 3D calculator with a neumorphic UI design that performs basic arithmeti
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-33_Calculator-Application
 
 ---
+
+###🔹 Day 34 – Advanced 3D Calculator
+
+An advanced and interactive 3D calculator built using HTML, CSS, and JavaScript. 
+The calculator features a modern glassmorphism UI, glowing buttons, and a dynamic 3D tilt effect that responds to mouse movement for a more immersive user experience.
+This project demonstrates DOM manipulation, keyboard event handling, mathematical expression evaluation using JavaScript, and smooth button animations powered by GSAP.
+
+🔗 Live Demo: https://vishal-cos-calculator-2.netlify.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-34_Calculator
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
