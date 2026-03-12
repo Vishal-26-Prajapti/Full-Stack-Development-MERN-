@@ -409,6 +409,21 @@ This project demonstrates responsive layout structuring, Flexbox alignment, hove
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-35_Diamonds-Store/
 
 ---
+
+🔹 Day 36 – Animated Star Rating UI
+
+An interactive and animated star rating component built using HTML, CSS, and JavaScript. 
+Users can select a rating from 1 to 5 stars, receive instant feedback messages based on their selection, and edit their rating after submitting.
+
+The interface includes smooth hover effects, glowing stars, pop animations, and a clean card-style UI to enhance the user experience.
+
+This project demonstrates CSS animations, radio input-based rating systems, DOM manipulation, and dynamic UI updates using JavaScript.
+
+🔗 Live Demo: https://vishal-cos-star-rating.netlify.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-36_Star-Rating/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
