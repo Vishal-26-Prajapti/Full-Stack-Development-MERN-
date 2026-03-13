@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 
 /* HEADER */
@@ -66,20 +67,28 @@ header .icons i {
     cursor: pointer;
 }
 
+header .hamburger {
+    display: none;
+    font-size: 26px;
+    cursor: pointer;
+}
+
 /* Section-1 */
 
 .img-container {
     width: 100%;
-    height: 85vh;
+    max-width: 1350px;
     overflow: hidden;
     position: relative;
-    margin-top: 102px;
+    margin: auto;
+    margin-top: 80px;
 }
 
 .img-container img {
     width: 100%;
-    height: 100%;
+    height: auto;
     object-fit: cover;
+    display: block;
 }
 
 .container {
@@ -101,8 +110,7 @@ header .icons i {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    font-size: 30px;
-    font-weight: 200;
+    font-size: 28px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
 }
 
@@ -110,6 +118,7 @@ header .icons i {
 
 .select-stone {
     width: 100%;
+    max-width: 1350px;
     height: 60vh;
     display: flex;
     flex-direction: column;
@@ -151,12 +160,14 @@ header .icons i {
 
 .section-3 {
     width: 100%;
-    height: 75vh;
+    max-width: 1350px;
+    /* height: 75vh; */
     background-color: #dadada;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 20px;
+    overflow: hidden;
 }
 
 .section-3 .sec-3-div-1 {
@@ -189,35 +200,62 @@ header .icons i {
 
 .section-4 {
     width: 100%;
+    max-width: 1350px;
     height: 85vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-    padding: 20px;
+    position: relative;
+    overflow: hidden;
 }
 
 .section-4 h3 {
     font-size: 44px;
-    font-weight: 200;
+    font-weight: 400;
 }
 
 .section-4 .sec-4-img {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 15px;
 
 }
 
 .section-4 .sec-4-img img {
     width: 100%;
-    max-width: 19%;
-    transition: transform 0.4s ease;
+    max-width: 250px;
+    transition: all 0.4s ease;
     cursor: pointer;
 }
 
 .section-4 .sec-4-img img:hover {
-    transform: scale(1.09);
+    transform: scale(1.1);
+}
+
+.section-4 .arrows {
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    padding: 0 40px;
+}
+
+.section-4 .arrows div {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 200;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
 }
 
 /* section-5 */
@@ -262,7 +300,7 @@ header .icons i {
 }
 
 .section-5 .sec-5-imgs div img {
-    width: 95%;
+    width: 100%;
     height: 400px;
     object-fit: cover;
     margin-left: 20px;
@@ -282,8 +320,8 @@ header .icons i {
 
 .section-6 {
     width: 100%;
-    height: 75vh;
-    overflow: hidden;
+    max-width: 1350px;
+    max-width: 1350px;
     position: relative;
 }
 
@@ -372,10 +410,11 @@ header .icons i {
     color: #555;
 }
 
+/* section-10 */
+
 .section-10 {
     display: flex;
-    justify-content: space-between;
-    padding: 10px;
+    justify-content: center;
     background-color: #f3f1f1;
 }
 
@@ -395,6 +434,7 @@ header .icons i {
 .section-10 div ul li {
     list-style: none;
     margin-bottom: 15px;
+    cursor: pointer;
 }
 
 .sec-10 {
@@ -409,7 +449,6 @@ header .icons i {
 .section-10 div a {
     text-decoration: none;
     color: black;
-    background: #eee;
     display: flex;
     align-items: flex-start;
     gap: 10px;
@@ -421,17 +460,565 @@ header .icons i {
     min-width: 22px;
 }
 
-footer{
+footer {
+    padding: 10px;
     display: flex;
     justify-content: space-between;
-    padding: 10px 15px;
-    border-top: 2px solid #333;
-    font-size: 15px;
-    background-color: #f3f1f1;
 }
 
-footer div a{
+footer div a {
     text-decoration: none;
     color: black;
-    margin-right: 20px;
+    padding: 0 15px;
+}
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    font-size: 38px;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    transition: transform 0.3s;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 992px) {
+    /* header */
+
+    header img {
+        width: 80px;
+    }
+
+    #nav-menu li {
+        font-size: 10px;
+    }
+
+    header .icons i {
+        font-size: 14px;
+    }
+
+    /* section-1 */
+
+    .img-container .container div {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+    }
+
+    /* section-2 */
+
+    .select-stone {
+        width: 100%;
+        max-width: 1000px;
+        gap: 40px;
+    }
+
+    .select-stone h3 {
+        font-size: 32px;
+    }
+
+    .stones {
+        gap: 20px;
+    }
+
+    .stone-imgs {
+        gap: 10px;
+    }
+
+    .stone-imgs img {
+        width: 120px;
+        height: 120px;
+    }
+
+    /* section-3 */
+
+    .section-3 {
+        padding: 70px 10px;
+        gap: 20px;
+    }
+
+    .sec-3-div-1 img {
+        max-width: 300px;
+    }
+
+    .section-3 .sec-3-div-1 a {
+        font-size: 18px;
+    }
+
+    .section-3 .sec-3-div-2 h3 {
+        font-size: 24px;
+    }
+
+    /* section-4 */
+
+    .section-4 {
+        height: 60vh;
+    }
+
+    .section-4 h3 {
+        font-size: 36px;
+    }
+
+    .section-4 .sec-4-img img {
+        width: 180px;
+    }
+
+    /* section-5 */
+
+    .section-5 .sec-5-imgs {
+        gap: 10px;
+    }
+
+    .section-5 .sec-5-imgs div {
+        width: 100%;
+        max-width: 210px;
+    }
+
+    .section-5 .sec-5-imgs div img {
+        width: 100%;
+        object-fit: cover;
+        max-width: 200px;
+    }
+
+    /* section-7 */
+
+    .section-7 {
+        height: 60vh;
+    }
+
+    .section-7 h3 {
+        font-size: 38px;
+    }
+
+    .section-7 .rings img {
+        width: 100%;
+        max-width: 230px;
+    }
+
+    /* section-9 */
+
+    .section-9 {
+        height: 60vh;
+        gap: 10px;
+    }
+
+    .section-9 .card h4 {
+        font-size: 18px;
+        padding: 0 5px;
+    }
+
+    /* section-10 */
+
+    .section-10 {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .sec-10 img {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    /* footer */
+
+    footer div {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    header img {
+        width: 90px;
+        height: auto;
+    }
+
+    header .hamburger {
+        font-size: 22px;
+    }
+
+    header .hamburger {
+        display: block;
+    }
+
+    #nav-menu {
+        position: absolute;
+        top: 70px;
+        left: -100%;
+        width: 100%;
+        background-color: white;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 0;
+        transition: 0.3s;
+    }
+
+    #nav-menu li {
+        padding: 10px 0;
+        font-size: 14px;
+    }
+
+    #nav-menu.active {
+        left: 0;
+    }
+
+    .select-stone h3 {
+        font-size: 24px;
+    }
+
+    .stones {
+        gap: 25px;
+    }
+
+    .stone-imgs img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .stone-imgs p {
+        font-size: 12px;
+    }
+
+    /* section-3 */
+
+    .section-3 {
+        padding: 50px 10px;
+        /* gap: 20px; */
+    }
+
+    .sec-3-div-1 img {
+        max-width: 250px;
+    }
+
+    .section-3 .sec-3-div-1 a {
+        font-size: 14px;
+    }
+
+    .section-3 .sec-3-div-2 h3 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    /* section-4 */
+
+    .section-4 {
+        gap: 10px;
+    }
+
+    .section-4 h3 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .section-4 .sec-4-img img {
+        width: 135px;
+    }
+
+    .section-4 .arrows div {
+        font-size: 20px;
+        width: 30px;
+        height: 30px;
+    }
+
+    /* section-5 */
+
+    .section-5 {
+        height: 85vh;
+    }
+
+    .section-5 h3 {
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    .section-5 p {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .section-5 .sec-5-imgs div {
+        width: 100%;
+        max-width: 300px;
+        height: 300px;
+        padding: 10px;
+    }
+
+    .section-5 .sec-5-imgs div img {
+        width: 100%;
+        object-fit: cover;
+        max-width: 200px;
+        margin-left: -1px;
+    }
+
+    .section-5 .sec-5-imgs div p {
+        font-size: 10px;
+        margin-top: -1px;
+    }
+
+    /* section-7 */
+
+    .section-7 {
+        height: 60vh;
+    }
+
+    .section-7 h3 {
+        font-size: 24px;
+    }
+
+    .section-7 .rings img {
+        width: 100%;
+        max-width: 180px;
+    }
+
+    /* section-9 */
+
+    .section-9 {
+        height: 60vh;
+    }
+
+    .section-9 .card {
+        height: 250px;
+    }
+
+    .section-9 .card img {
+        width: 70px;
+    }
+
+    .section-9 .card h4 {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .section-9 .card p {
+        text-align: center;
+        font-size: 10px;
+        color: #555;
+    }
+
+    /* footer */
+
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    header img {
+        width: 70px;
+        height: auto;
+    }
+
+    header .hamburger {
+        font-size: 18px;
+    }
+
+    header .hamburger {
+        display: block;
+    }
+
+    #nav-menu li {
+        padding: 5px 0;
+        font-size: 12px;
+    }
+
+    .select-stone {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .select-stone h3 {
+        font-size: 24px;
+        font-weight: 400;
+        margin-bottom: -10px;
+    }
+
+    .select-stone .stones {
+        flex-wrap: wrap;
+        padding: 10px 0;
+    }
+
+    .select-stone .stones img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .select-stone .stones p {
+        font-size: 15px;
+        padding: 0 10px;
+    }
+
+    /* section-3 */
+
+    .section-3 {
+        padding: 50px 10px;
+        flex-direction: column;
+    }
+
+    .sec-3-div-1 img {
+        max-width: 300px;
+    }
+
+    .section-3 .sec-3-div-1 a {
+        font-size: 16px;
+        margin-top: -10px;
+    }
+
+    .section-3 .sec-3-div-2 h3 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    /* section-4 */
+
+    .section-4 {
+        gap: 10px;
+        overflow: visible;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .section-4 h3 {
+        font-size: 28px;
+    }
+
+    .section-4 .sec-4-img {
+        flex-direction: column;
+    }
+
+    .section-4 .sec-4-img img {
+        width: 250px;
+    }
+
+    .section-4 .arrows {
+        display: none;
+    }
+
+    /* section-5 */
+
+    .section-5 {
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .section-5 p {
+        font-size: 14px;
+    }
+
+    .section-5 .sec-5-imgs {
+        flex-direction: column;
+    }
+
+    .section-5 .sec-5-imgs div {
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+    }
+
+    .section-5 .sec-5-imgs div img {
+        width: 100%;
+        object-fit: cover;
+        max-width: 250px;
+    }
+
+    .section-5 .sec-5-imgs div p {
+        font-size: 18px;
+    }
+
+    /* section-7 */
+
+    .section-7 {
+        height: auto;
+    }
+
+    .section-7 h3 {
+        font-size: 28px;
+    }
+
+    .section-7 .rings {
+        flex-direction: column;
+        margin: 10px;
+        padding: 20px;
+        gap: 20px;
+
+    }
+
+    .section-7 .rings img {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    /* section-9 */
+
+    .section-9 {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .section-9 .card {
+        height: auto;
+        padding: 20px;
+    }
+
+    .section-9 .card img {
+        width: 80px;
+    }
+
+    .section-9 .card h4 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .section-9 .card p {
+        text-align: center;
+        font-size: 12px;
+        color: #555;
+    }
+
+    /* section-10 */
+
+    .section-10 div {
+        width: 300px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .section-10 div h4 {
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    .section-10 div ul a li {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* footer */
+
+    footer {
+        text-align: center;
+    }
+
+    footer div a {
+        display: flex;
+        margin-bottom: 10px;
+    }
 }
