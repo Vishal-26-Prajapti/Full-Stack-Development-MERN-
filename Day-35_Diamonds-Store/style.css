@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
 }
 
 body {
@@ -450,7 +449,6 @@ header .hamburger {
 .section-10 div a {
     text-decoration: none;
     color: black;
-    background: #eee;
     display: flex;
     align-items: flex-start;
     gap: 10px;
@@ -607,7 +605,7 @@ footer div a {
 
     .section-7 .rings img {
         width: 100%;
-        max-width: 230px;
+        max-width: 200px;
     }
 
     /* section-9 */
