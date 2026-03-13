@@ -406,6 +406,8 @@ This project demonstrates responsive layout structuring, Flexbox alignment, hove
 
 🔗 Live Demo: https://vishal-cos-diamonds-store.netlify.app/
 
+🔗 Live Demo (responsive): https://vishal-cos-diamonds-store-ui.netlify.app/
+
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-35_Diamonds-Store/
 
 ---
