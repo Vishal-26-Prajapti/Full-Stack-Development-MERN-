@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Notes App</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="shortcut icon" href="./Vishal_logo.png" type="image/x-icon">
+
+    </head>
+
+    <body class="bg-black text-white h-screen lg:flex">
+
+        <form id="noteForm" class="flex p-10 flex-col gap-4 lg:w-1/2">
+            <h1 class="text-3xl font-medium text-center">Add notes</h1>
+
+            <input id="heading" type="text" placeholder="Notes heading..."
+                class="border-2 rounded-xl px-4 py-2 outline-none font-medium bg-black" />
+
+            <textarea id="details" placeholder="Write details..."
+                class="border-2 h-40 rounded-xl px-4 py-2 outline-none font-medium bg-black"></textarea>
+
+            <button
+                class="bg-white text-black py-2 rounded-xl font-medium cursor-pointer hover:bg-gray-300 active:scale-95">
+                Add note...
+            </button>
+        </form>
+
+        <div class="m-10 lg:w-1/2 flex flex-col items-center lg:border-l-2">
+
+            <h1 class="text-3xl font-medium">Recent notes</h1>
+
+            <div id="notesContainer"
+                class="flex gap-4 flex-wrap mt-4 h-[90%] overflow-auto rounded-2xl justify-center lg:justify-start">
+            </div>
+
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
