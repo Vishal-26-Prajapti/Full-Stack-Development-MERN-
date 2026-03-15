@@ -426,6 +426,19 @@ This project demonstrates CSS animations, radio input-based rating systems, DOM 
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-36_Star-Rating/
 
 ---
+
+🔹 Day 37 – Portfolio Hero Section with 3D Robot
+
+A modern portfolio hero section built using HTML and CSS, featuring an interactive 3D robot integrated with Spline. The design highlights a clean developer introduction with glowing text effects, a dark UI theme, and an engaging 3D visual element.
+
+This project demonstrates layout structuring using Flexbox, modern UI styling with gradients and text glow effects, and integration of 3D web elements using Spline iframe embedding.
+
+🔗 Live Demo: https://vishal-cos-portfolio.vercel.app/
+
+🔗 GitHub Repository: 
+https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-37_My-Portfolio/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
