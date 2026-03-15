@@ -439,6 +439,21 @@ This project demonstrates layout structuring using Flexbox, modern UI styling wi
 https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-37_My-Portfolio/
 
 ---
+
+🔹 Day 38 – Notes App
+
+A simple and interactive Notes App built using HTML, Tailwind CSS, and JavaScript. Users can create notes by adding a heading and description, view them instantly in a notes panel, and delete notes when needed.
+
+The application dynamically updates the UI using JavaScript DOM manipulation and stores notes in an array for rendering note cards.
+
+This project demonstrates event handling, dynamic DOM creation, state management with arrays, and responsive UI design using Tailwind CSS.
+
+🔗 Live Demo: https://vishal-cos-notes-app.netlify.app/
+
+🔗 GitHub Repository:
+https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-38_Note-Application/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
