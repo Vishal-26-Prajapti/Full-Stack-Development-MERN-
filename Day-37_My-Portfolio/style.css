@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    border: 1px solid red;
 }
 
 html {
@@ -127,14 +128,17 @@ header nav ul li:hover {
     border: none;
 }
 
+/* about-me */
+
 .about-me {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 6;
-    padding: 120px 80px;
+    gap: 40px;
+    padding: 100px 5%;
     background: #000;
     color: #fff;
+    flex-wrap: wrap;
 }
 
 .about-img {
@@ -145,7 +149,8 @@ header nav ul li:hover {
 
 .about-img img {
     cursor: pointer;
-    width: 320px;
+    width: 100%;
+    max-width: 320px;
     border-radius: 50%;
     transition: 0.5s;
     box-shadow:
@@ -168,7 +173,7 @@ header nav ul li:hover {
 }
 
 .about-text h2 {
-    font-size: 45px;
+    font-size: clamp(28px, 4vw, 45px);
     margin-bottom: 20px;
 }
 
@@ -178,7 +183,7 @@ header nav ul li:hover {
 
 .about-text p {
     color: #aaa;
-    font-size: 18px;
+    font-size: clamp(14px, 2vw, 18px);
     line-height: 1.7;
     margin-bottom: 15px;
 }
@@ -198,8 +203,7 @@ header nav ul li:hover {
     border-radius: 30px;
     cursor: pointer;
     transition: 0.3s;
-    position: relative;
-    left: 30%;
+    display: inline-block;
 }
 
 .about-btn:hover {
@@ -212,16 +216,18 @@ header nav ul li:hover {
         0 0 40px #1ed4d4;
 }
 
+/* skills */
+
 .skills {
-    padding: 120px 80px;
+    padding: 100px 5%;
     background: #000;
     color: #fff;
     text-align: center;
 }
 
 .skills h2 {
-    font-size: 45px;
-    margin-bottom: 60px;
+    font-size: clamp(28px, 4vw, 45px);
+    margin-bottom: 50px;
 }
 
 .skills span {
@@ -229,20 +235,22 @@ header nav ul li:hover {
 }
 
 .skills-container {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 20px;
+    align-items: center;
     justify-content: center;
-    gap: 25px;
 }
 
 .skill-card {
-    padding: 15px 30px;
+    padding: 12px 20px;
     border-radius: 30px;
-    font-size: 18px;
+    font-size: clamp(14px, 2vw, 18px);
     color: #fff;
     border: 1px solid #19bdd3;
     cursor: pointer;
     transition: 0.3s;
+    text-align: center;
 }
 
 .skill-card:hover {
@@ -253,16 +261,18 @@ header nav ul li:hover {
         0 0 40px #1ed4d4;
 }
 
+/* projects */
+
 .projects {
-    padding: 120px 80px;
+    padding: 100px 5%;
     background: #000;
     color: #fff;
     text-align: center;
 }
 
 .projects h2 {
-    font-size: 45px;
-    margin-bottom: 60px;
+    font-size: clamp(28px, 4vw, 45px);
+    margin-bottom: 50px;
 }
 
 .projects span {
@@ -271,7 +281,7 @@ header nav ul li:hover {
 
 .projects-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 20px;
 }
 
@@ -284,7 +294,8 @@ header nav ul li:hover {
 
 .project-box img {
     width: 100%;
-    height: 250px;
+    height: 100%;
+    aspect-ratio: 4/3;
     object-fit: cover;
     transition: 0.5s;
 }
@@ -295,10 +306,7 @@ header nav ul li:hover {
 
 .overlay {
     position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    inset: 0;
     background: rgba(0, 0, 0, 0.7);
 
     display: flex;
@@ -307,7 +315,7 @@ header nav ul li:hover {
     align-items: center;
 
     opacity: 0;
-    transition: 0.5s;
+    transition: 0.4s;
 }
 
 .project-box:hover .overlay {
@@ -347,16 +355,18 @@ header nav ul li:hover {
         0 0 40px #1ed4d4;
 }
 
+/* experience */
+
 .experience {
-    padding: 120px 80px;
+    padding: 100px 5%;
     background: #000;
     color: #fff;
     text-align: center;
 }
 
 .experience h2 {
-    font-size: 45px;
-    margin-bottom: 50px;
+    font-size: clamp(28px, 4vw, 45px);
+    margin-bottom: 40px;
 }
 
 .experience span {
@@ -366,14 +376,14 @@ header nav ul li:hover {
 .experience-container {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 25px;
     max-width: 800px;
     margin: auto;
 }
 
 .exp-box {
     background: #111;
-    padding: 25px;
+    padding: 20px;
     border-radius: 15px;
     border-left: 4px solid #19bdd3;
     text-align: left;
@@ -386,30 +396,32 @@ header nav ul li:hover {
 }
 
 .exp-box h3 {
-    font-size: 22px;
+    font-size: clamp(18px, 2.5vw, 22px);
     margin-bottom: 5px;
 }
 
 .exp-box span {
-    font-size: 14px;
+    font-size: clamp(12px, 2vw, 14px);
     color: #aaa;
 }
 
 .exp-box p {
-    margin-top: 10px;
+    font-size: clamp(14px, 2vw, 16px);
     color: #ccc;
 }
 
+/* contact */
+
 .contact {
-    padding: 120px 80px;
+    padding: 100px 5%;
     background: #000;
     color: #fff;
     text-align: center;
 }
 
 .contact h2 {
-    font-size: 45px;
-    margin-bottom: 50px;
+    font-size: clamp(28px, 4vw, 45px);
+    margin-bottom: 40px;
 }
 
 .contact span {
@@ -419,6 +431,7 @@ header nav ul li:hover {
 .contact-container {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 40px;
     flex-wrap: wrap;
 }
@@ -426,15 +439,12 @@ header nav ul li:hover {
 .contact-info {
     flex: 1;
     text-align: left;
-}
-
-.contact-info div {
-    margin-left: 100px;
+    max-width: 400px;
 }
 
 .contact-info p {
     margin-bottom: 15px;
-    font-size: 20px;
+    font-size: clamp(14px, 2vw, 18px);
 }
 
 .contact-info a {
@@ -451,8 +461,8 @@ header nav ul li:hover {
 
 .contact-form {
     flex: 1;
+    max-width: 400px;
     display: flex;
-    align-items: center;
     flex-direction: column;
     padding: 10px;
 }
@@ -471,7 +481,7 @@ header nav ul li:hover {
 }
 
 .contact-form button {
-    width: 50%;
+    width: 100%;
     padding: 12px;
     border: none;
     background: #19bdd3;
@@ -492,12 +502,38 @@ header nav ul li:hover {
         0 0 20px #1ed4d4;
 }
 
+/* footer */
+
 .footer {
     background: #111;
     color: #aaa;
     text-align: center;
-    padding: 20px;
-    font-size: 20px;
+    padding: 25px 5%;
+    font-size: clamp(14px, 2vw, 18px);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #19bdd3;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: #15cac1;
+    text-shadow:
+        0 0 5px #19bdd3,
+        0 0 10px #15cac1,
+        0 0 20px #1ed4d4;
 }
 
 @media (max-width: 768px) {
@@ -552,11 +588,115 @@ header nav ul li:hover {
 
     .hero-robot {
         width: 100%;
-        max-width: 500px;
-        height: 500px;
+        max-width: 400px;
     }
 
     .hero-robot:hover {
         transform: none;
+    }
+
+    /* about-me */
+
+    .about-me {
+        flex-direction: column;
+        text-align: center;
+        padding: 80px 20px;
+    }
+
+    .about-text {
+        max-width: 100%;
+    }
+
+    .about-img img {
+        max-width: 300px;
+    }
+
+    .about-img img:hover {
+        transform: none;
+    }
+
+    .about-btn {
+        margin: 0 auto;
+        display: block;
+    }
+
+    /* skills */
+
+    .skills {
+        padding: 80px 20px;
+    }
+
+    .skills-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact-info div {
+        margin-left: 0;
+    }
+
+    /* projects */
+    .projects {
+        padding: 80px 20px;
+    }
+
+    .overlay {
+        opacity: 1;
+        position: relative;
+        background: #111;
+        padding: 15px;
+    }
+
+    .project-box img {
+        border-radius: 15px 15px 0 0;
+    }
+
+    /* experience */
+
+    .experience {
+        padding: 80px 20px;
+    }
+
+    .exp-box {
+        padding: 18px;
+    }
+
+    .exp-box:hover {
+        transform: none;
+    }
+
+    /* contact */
+
+    .contact {
+        padding: 80px 20px;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-info {
+        text-align: center;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .contact-form input:focus,
+    .contact-form textarea:focus {
+        box-shadow: 0 0 10px #19bdd3;
+    }
+
+    /* footer */
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .social-links a {
+        display: inline-block;
+        margin: 5px 10px;
     }
 }
