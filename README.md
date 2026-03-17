@@ -412,7 +412,7 @@ This project demonstrates responsive layout structuring, Flexbox alignment, hove
 
 ---
 
-🔹 Day 36 – Animated Star Rating UI
+###🔹 Day 36 – Animated Star Rating UI
 
 An interactive and animated star rating component built using HTML, CSS, and JavaScript. 
 Users can select a rating from 1 to 5 stars, receive instant feedback messages based on their selection, and edit their rating after submitting.
@@ -427,7 +427,7 @@ This project demonstrates CSS animations, radio input-based rating systems, DOM 
 
 ---
 
-🔹 Day 37 – Portfolio Hero Section with 3D Robot
+### 🔹 Day 37 – My Portfolio
 
 A modern portfolio hero section built using HTML and CSS, featuring an interactive 3D robot integrated with Spline. The design highlights a clean developer introduction with glowing text effects, a dark UI theme, and an engaging 3D visual element.
 
@@ -440,7 +440,7 @@ https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-37_My-Port
 
 ---
 
-🔹 Day 38 – Notes App
+### 🔹 Day 38 – Notes App
 
 A simple and interactive Notes App built using HTML, Tailwind CSS, and JavaScript. Users can create notes by adding a heading and description, view them instantly in a notes panel, and delete notes when needed.
 
@@ -452,6 +452,21 @@ This project demonstrates event handling, dynamic DOM creation, state management
 
 🔗 GitHub Repository:
 https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-38_Note-Application/
+
+---
+
+###🔹 Day 39 – Updated Portfolio
+
+An improved version of the portfolio hero section built using HTML and CSS, featuring an interactive 3D robot integrated with Spline. The update focuses on refining the layout, improving spacing, and enhancing the overall visual experience.
+
+The hero section highlights a developer introduction with glowing text effects, a modern dark theme, and a 3D animated element to create a more engaging portfolio interface.
+
+This project demonstrates layout structuring with Flexbox, modern UI styling using CSS gradients and text effects, and embedding 3D web elements using Spline.
+
+🔗 Live Demo: https://vishal-cos-portfolio.vercel.app/
+
+🔗 GitHub Repository:
+https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-37_My-Portfolio/
 
 ---
 ## 🛠️ Tech Stack
