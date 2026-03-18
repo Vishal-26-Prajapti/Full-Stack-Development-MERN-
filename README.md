@@ -469,6 +469,17 @@ This project demonstrates layout structuring with Flexbox, modern UI styling usi
 https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-37_My-Portfolio/
 
 ---
+
+### 🔹 Day 41 – Animated Stats Dashboard  
+
+An interactive and visually appealing **Stats Dashboard** built using HTML, CSS, and JavaScript.  
+This project features animated counters that start when the user scrolls to the section, creating a dynamic and engaging user experience.  
+
+🔗 Live Demo: https://vishal-cos-counter.netlify.app/  
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-41_Stats-Dashboard/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
