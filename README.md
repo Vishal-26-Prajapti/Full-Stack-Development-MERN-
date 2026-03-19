@@ -480,6 +480,18 @@ This project features animated counters that start when the user scrolls to the 
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-41_Stats-Dashboard/
 
 ---
+
+### 🔹 Day 42 – Netflix Clone UI
+
+A modern and visually appealing Netflix landing page clone built using HTML and CSS. This project focuses on recreating the core UI of Netflix with a clean layout, smooth styling, and engaging visual effects.
+
+It demonstrates strong fundamentals of frontend design including layouts, overlays, and advanced CSS styling techniques.
+
+🔗 Live Demo: https://vishal-cos-netflix.vercel.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-42_Netflix/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
