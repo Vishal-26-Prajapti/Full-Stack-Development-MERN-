@@ -490,6 +490,7 @@ It demonstrates strong fundamentals of frontend design including layouts, overla
 🔗 Live Demo: https://vishal-cos-netflix.vercel.app/
 
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-42_Netflix/
+
 ---
 ## 🛠️ Tech Stack
 - HTML5  
