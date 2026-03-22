@@ -492,6 +492,17 @@ It demonstrates strong fundamentals of frontend design including layouts, overla
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-42_Netflix/
 
 ---
+
+### 🔹Hacker Loader (Matrix UI Animation)
+
+An advanced hacker-style animated loader built using HTML, CSS, and JavaScript.  
+This project features a Matrix rain background, spinning loader rings, glitch percentage counter, and a terminal typing effect for a real cyberpunk experience.
+
+🔗 Live Demo: https://vishal-cos-hacker-loader.netlify.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-43_Loader/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
