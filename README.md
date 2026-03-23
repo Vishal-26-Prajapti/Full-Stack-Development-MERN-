@@ -493,7 +493,7 @@ It demonstrates strong fundamentals of frontend design including layouts, overla
 
 ---
 
-### 🔹Hacker Loader (Matrix UI Animation)
+### 🔹Day 43 - Hacker Loader (Matrix UI Animation)
 
 An advanced hacker-style animated loader built using HTML, CSS, and JavaScript.  
 This project features a Matrix rain background, spinning loader rings, glitch percentage counter, and a terminal typing effect for a real cyberpunk experience.
@@ -501,6 +501,16 @@ This project features a Matrix rain background, spinning loader rings, glitch pe
 🔗 Live Demo: https://vishal-cos-hacker-loader.netlify.app/
 
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-43_Loader/
+
+---
+
+### 🔹Day 44 - 3D Flip Card Gallery
+
+An interactive 3D Flip Card Gallery built using HTML, CSS, and JavaScript.  
+Each card flips on click to reveal detailed content, creating a smooth and engaging user experience.
+
+🔗 Live Demo: https://vishal-cos-flip-card.netlify.app/
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-44_3D-flip-gallery/
 
 ---
 ## 🛠️ Tech Stack
