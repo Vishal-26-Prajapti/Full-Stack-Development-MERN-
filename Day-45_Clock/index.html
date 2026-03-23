@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Clock</title>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;600&family=DM+Serif+Display&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="shortcut icon" href="./Vishal_logo.png" type="image/x-icon">
+    </head>
+
+    <body>
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+        <div class="particles" id="particles"></div>
+
+        <div class="card">
+            <div class="greeting" id="greeting">Good Morning</div>
+
+            <div class="clock-face" id="clockFace">
+                <div class="clock-ring"></div>
+                <!-- Ticks & numbers injected by JS -->
+                <div class="hand hour" id="hourHand"></div>
+                <div class="hand minute" id="minuteHand"></div>
+                <div class="hand second" id="secondHand"></div>
+                <div class="center-dot"></div>
+            </div>
+
+            <div class="digital-time" id="digitalTime">
+                12:00<span class="ampm" id="ampm">AM</span>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="date-row">
+                <div class="date-pill accent" id="dayName">Monday</div>
+                <div class="date-pill" id="dateStr">Jan 1, 2025</div>
+            </div>
+
+            <div class="progress-track">
+                <div class="progress-fill" id="progressFill" style="width:0%"></div>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+
+</html>
