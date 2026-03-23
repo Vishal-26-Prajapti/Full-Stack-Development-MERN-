@@ -513,6 +513,16 @@ Each card flips on click to reveal detailed content, creating a smooth and engag
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-44_3D-flip-gallery/
 
 ---
+
+### 🔹Day 45 - Glassmorphism Digital Clock
+
+A modern and interactive **Digital + Analog Clock UI** built using HTML, CSS, and JavaScript.  
+This project features real-time updates, smooth animations, and a beautiful glassmorphism design.
+
+🔗 Live Demo: https://vishal-cos-digital-clock.netlify.app/
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-45_Clock/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
