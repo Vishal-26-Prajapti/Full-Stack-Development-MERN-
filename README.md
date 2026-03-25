@@ -523,6 +523,15 @@ This project features real-time updates, smooth animations, and a beautiful glas
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-45_Clock/
 
 ---
+
+# 🔹Day 46 - NEXUS Agency Landing Page
+
+A modern and fully responsive **Agency Landing Page** built using Bootstrap 5.  
+This project showcases a complete business website layout including services, portfolio, testimonials, and contact form.
+
+🔗 Live Demo: https://vishal-cos-nexus.netlify.app/
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-46_Boostrap-website/
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
