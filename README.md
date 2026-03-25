@@ -534,6 +534,7 @@ This project showcases a complete business website layout including services, po
 🔗 Live Demo: https://vishal-cos-nexus.netlify.app/
 
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-46_Boostrap-website/
+
 ---
 
 ### 🔹Day 47 - Interactive Light Glow Effect
