@@ -510,6 +510,7 @@ An interactive 3D Flip Card Gallery built using HTML, CSS, and JavaScript.
 Each card flips on click to reveal detailed content, creating a smooth and engaging user experience.
 
 🔗 Live Demo: https://vishal-cos-flip-card.netlify.app/
+
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-44_3D-flip-gallery/
 
 ---
@@ -520,6 +521,7 @@ A modern and interactive **Digital + Analog Clock UI** built using HTML, CSS, an
 This project features real-time updates, smooth animations, and a beautiful glassmorphism design.
 
 🔗 Live Demo: https://vishal-cos-digital-clock.netlify.app/
+
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-45_Clock/
 
 ---
@@ -530,6 +532,7 @@ A modern and fully responsive **Agency Landing Page** built using Bootstrap 5.
 This project showcases a complete business website layout including services, portfolio, testimonials, and contact form.
 
 🔗 Live Demo: https://vishal-cos-nexus.netlify.app/
+
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-46_Boostrap-website/
 ---
 
@@ -538,6 +541,7 @@ This project showcases a complete business website layout including services, po
 A visually engaging **Light Glow Effect UI** where a glowing spotlight follows the user's cursor smoothly, creating an immersive experience.
 
 🔗 Live Demo: https://vishal-cos-light-glow.netlify.app/
+
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-47_Light-Glow/
 
 ---
