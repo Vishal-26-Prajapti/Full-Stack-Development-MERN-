@@ -532,6 +532,15 @@ This project showcases a complete business website layout including services, po
 🔗 Live Demo: https://vishal-cos-nexus.netlify.app/
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-46_Boostrap-website/
 ---
+
+### 🔹Day 47 - Interactive Light Glow Effect
+
+A visually engaging **Light Glow Effect UI** where a glowing spotlight follows the user's cursor smoothly, creating an immersive experience.
+
+🔗 Live Demo: https://vishal-cos-light-glow.netlify.app/
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-47_Light-Glow/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
