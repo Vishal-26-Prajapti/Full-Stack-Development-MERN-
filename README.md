@@ -557,6 +557,17 @@ Users can enter their details and instantly generate stylish profile cards with 
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-48_Profile-Card/
 
 ---
+
+### 🔹Day 49 -  Modern Login Page with Validation
+
+A sleek and modern **Login Form UI** built using HTML, CSS, and JavaScript.  
+This project focuses on **real-time form validation**, user-friendly feedback, and a clean glassmorphism design.
+
+🔗 Live Demo: https://vishal-cos-login-page.netlify.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-49_Login
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
