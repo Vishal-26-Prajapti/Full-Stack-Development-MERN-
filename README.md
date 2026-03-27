@@ -546,6 +546,17 @@ A visually engaging **Light Glow Effect UI** where a glowing spotlight follows t
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-47_Light-Glow/
 
 ---
+
+### 🔹Day 48 - Dynamic Profile Card Generator
+
+An interactive **Profile Card Generator** built using HTML, CSS, and JavaScript.  
+Users can enter their details and instantly generate stylish profile cards with image preview and social link integration.
+
+🔗 Live Demo: https://vishal-cos-profile-card.netlify.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-48_Profile-Card/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
