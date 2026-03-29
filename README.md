@@ -568,6 +568,17 @@ This project focuses on **real-time form validation**, user-friendly feedback, a
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-49_Login
 
 ---
+
+### 🔹Day 50 - User Search Card UI
+
+An interactive **User Card Search Interface** built using HTML, Tailwind CSS, and JavaScript.  
+Users can search profiles in real-time with a clean and responsive card layout.
+
+🔗 Live Demo: https://vishal-cos-user-search-cards.netlify.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-50_User-Cards/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
