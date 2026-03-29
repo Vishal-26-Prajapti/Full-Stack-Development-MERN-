@@ -579,6 +579,17 @@ Users can search profiles in real-time with a clean and responsive card layout.
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-50_User-Cards/
 
 ---
+
+### 🔹Day 51 - Toaster Notification System
+
+A customizable **Toaster Notification UI** built using JavaScript and Tailwind CSS.  
+This project displays dynamic notifications with animations, positioning options, and automatic theme detection.
+
+🔗 Live Demo: https://vishal-cos-toaster-notification.netlify.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-51_Toaster-Notification/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
