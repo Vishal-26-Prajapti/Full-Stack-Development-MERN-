@@ -590,6 +590,16 @@ This project displays dynamic notifications with animations, positioning options
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-51_Toaster-Notification/
 
 ---
+
+### 🔹Day 52 - Random User Cards (API Project)
+
+A dynamic **User Card Generator** that fetches real user data from an API and displays it in a modern card layout.
+
+🔗 Live Demo: https://vishal-cos-user-cards-fetch-method.netlify.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-52_Cards-using-fetch/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
