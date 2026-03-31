@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bank App</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="shortcut icon" href="./Vishal_logo.png" type="image/x-icon">
+    </head>
+
+    <body
+        class="min-h-screen flex items-center justify-center text-white bg-gradient-to-br from-black via-zinc-900 to-black overflow-hidden">
+
+        <div
+            class="absolute w-[500px] h-[500px] bg-green-500 opacity-20 blur-[120px] rounded-full top-[-100px] left-[-100px]">
+        </div>
+        <div
+            class="absolute w-[400px] h-[400px] bg-blue-500 opacity-20 blur-[120px] rounded-full bottom-[-100px] right-[-100px]">
+        </div>
+
+        <div
+            class="relative w-full max-w-md p-6 rounded-3xl bg-white/5 backdrop-blur-xl border border-white/10 shadow-[0_0_40px_rgba(0,255,150,0.1)]">
+
+            <div class="text-center mb-6">
+                <h1 class="text-2xl font-bold tracking-wide">🏦 My Bank</h1>
+                <p class="text-gray-400 text-sm">Smart Banking UI</p>
+            </div>
+
+            <div
+                class="bg-gradient-to-r from-green-400/20 to-emerald-500/20 p-6 rounded-2xl text-center border border-green-400/20 mb-6">
+                <p class="text-sm text-gray-300">Current Balance</p>
+                <h2 id="balance" class="text-4xl font-bold mt-2 tracking-wide transition-all duration-300">
+                    ₹0
+                </h2>
+            </div>
+
+            <input id="amount" type="number" placeholder="Enter amount..."
+                class="w-full mb-4 px-4 py-3 bg-zinc-800/70 rounded-xl border border-zinc-700 focus:ring-2 focus:ring-green-400 outline-none transition" />
+
+            <div class="grid grid-cols-2 gap-3 mb-4">
+                <button id="depositBtn"
+                    class="flex items-center justify-center gap-2 py-3 bg-green-500/90 rounded-xl hover:bg-green-600 hover:shadow-lg hover:shadow-green-500/30 active:scale-95 transition">
+                    💰 Deposit
+                </button>
+
+                <button id="withdrawBtn"
+                    class="flex items-center justify-center gap-2 py-3 bg-red-500/90 rounded-xl hover:bg-red-600 hover:shadow-lg hover:shadow-red-500/30 active:scale-95 transition">
+                    💸 Withdraw
+                </button>
+            </div>
+
+            <p id="message" class="text-center text-sm mb-4 text-gray-300"></p>
+
+            <div class="bg-white/5 p-4 rounded-xl border border-white/10 max-h-40 overflow-y-auto">
+                <h3 class="text-sm text-gray-400 mb-2">Transactions</h3>
+
+                <div id="emptyState" class="text-gray-500 text-xs text-center">
+                    No transactions yet...
+                </div>
+
+                <ul id="history" class="space-y-2 text-sm"></ul>
+            </div>
+
+        </div>
+
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
