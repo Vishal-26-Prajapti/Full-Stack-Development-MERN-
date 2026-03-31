@@ -600,6 +600,16 @@ A dynamic **User Card Generator** that fetches real user data from an API and di
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-52_Cards-using-fetch/
 
 ---
+
+### 🔹Day 53 - Bank App (JavaScript OOP + LocalStorage)
+
+A modern **Banking UI App** that allows users to deposit, withdraw, and track transaction history with persistent data storage.
+
+🔗 Live Demo: https://vishal-cos-bank-app.netlify.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-53_Bank/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
