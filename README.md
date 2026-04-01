@@ -610,6 +610,16 @@ A modern **Banking UI App** that allows users to deposit, withdraw, and track tr
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-53_Bank/
 
 ---
+
+### 🔹Day 54 - Smartphone Store UI (API + Filters + Modal)
+
+A modern **E-commerce Product UI** that fetches smartphone data from an API and provides search, filtering, and detailed product view with a modal.
+
+🔗 Live Demo: https://vishal-cos-smartphone-store-ui.netlify.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-54_SmartPhone-Store-UI/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
