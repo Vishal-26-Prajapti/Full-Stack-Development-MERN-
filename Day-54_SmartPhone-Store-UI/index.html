@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Lazy Mobile Product</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="shortcut icon" href="./Vishal_logo.png" type="image/x-icon">
+    </head>
+
+    <body class="bg-gray-950 text-white">
+
+        <div class="flex min-h-screen">
+
+            <!-- Sidebar -->
+            <aside class="w-64 bg-gray-900 p-5 border-r border-gray-800">
+                <h2 class="text-lg font-semibold mb-4">Filters</h2>
+
+                <div class="space-y-4 text-sm text-gray-300">
+
+                    <div>
+                        <p class="mb-2">Price</p>
+                        <input id="priceRange" type="range" min="0" max="2000" value="2000" class="w-full">
+                        <p class="text-xs mt-1">Max: $<span id="priceValue">2000</span></p>
+                    </div>
+
+                </div>
+            </aside>
+
+            <!-- Main -->
+            <main class="flex-1 p-6">
+
+                <div class="flex justify-between items-center mb-6">
+                    <h1 class="text-2xl font-semibold">Products</h1>
+
+                    <input id="searchInput" type="text" placeholder="Search..."
+                        class="bg-gray-900 px-4 py-2 rounded-xl outline-none w-64">
+                </div>
+
+                <!-- Product -->
+                <div id="products" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"></div>
+
+            </main>
+
+        </div>
+
+        <!-- Open when clicked product -->
+        <div id="modal" class="fixed inset-0 bg-black/70 hidden items-center justify-center z-50">
+
+            <div class="bg-gray-900 w-[800px] rounded-2xl p-6 flex gap-6 relative">
+
+                <div class="w-1/2">
+                    <img id="modalImg" class="w-full h-[350px] object-cover rounded-xl mb-3" />
+                    <div id="thumbs" class="flex gap-2"></div>
+                </div>
+
+                <div class="w-1/2 flex flex-col justify-between">
+
+                    <div>
+                        <h2 id="title" class="text-xl font-semibold"></h2>
+                        <p id="brand" class="text-gray-400 text-sm mb-3"></p>
+                        <p id="desc" class="text-sm text-gray-300 mb-4"></p>
+
+                        <div class="text-gray-400 text-sm space-y-1">
+                            <p id="stock"></p>
+                            <p id="shipping"></p>
+                            <p id="warranty"></p>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-between items-center mt-4">
+                        <div>
+                            <p id="price" class="text-2xl text-green-400 font-bold"></p>
+                            <p id="rating" class="text-yellow-400 text-sm"></p>
+                        </div>
+
+                        <img id="qr" class="w-20 bg-white p-1 rounded" />
+                    </div>
+
+                </div>
+
+                <button onclick="closeModal()" class="absolute top-4 right-6 text-gray-400 text-lg">✖</button>
+
+            </div>
+
+        </div>
+
+        <script src="./script.js"></script>
+
+    </body>
+
+</html>
