@@ -620,6 +620,16 @@ A modern **E-commerce Product UI** that fetches smartphone data from an API and 
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-54_SmartPhone-Store-UI/
 
 ---
+
+### 🔹Day 55 - Snake Game (JavaScript Game Logic)
+
+A classic **Snake Game** built using JavaScript where the player controls the snake, eats food, and tries to achieve the highest score.
+
+🔗 Live Demo: https://vishal-cos-snake-game.netlify.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-55_Snake-Game/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
