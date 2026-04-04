@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typing Speed Test</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="shortcut icon" href="./Vishal_logo.png" type="image/x-icon">
+</head>
+
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+
+  <div class="bg-white shadow-xl rounded-2xl p-6 w-full max-w-2xl">
+    
+    <h1 class="text-2xl font-bold text-center mb-4">Typing Speed Test</h1>
+
+    <div class="flex justify-between items-center mb-4">
+      <select id="difficulty" class="border rounded px-2 py-1">
+        <option value="easy">Easy</option>
+        <option value="medium" selected>Medium</option>
+        <option value="hard">Hard</option>
+      </select>
+
+      <div class="space-x-2">
+        <button id="startBtn" class="bg-green-500 text-white px-4 py-1 rounded">Start</button>
+        <button id="restartBtn" class="bg-red-500 text-white px-4 py-1 rounded">Restart</button>
+      </div>
+    </div>
+
+    <div id="textDisplay" class="border p-4 rounded mb-4 h-32 overflow-y-auto text-gray-700"></div>
+
+    <textarea id="inputField" 
+      class="w-full border rounded p-2 h-24 focus:outline-none focus:ring-2 focus:ring-blue-400"
+      placeholder="Start typing here..."
+      disabled></textarea>
+
+    <div class="flex justify-between mt-4 text-sm">
+      <p>Time: <span id="timer">60</span>s</p>
+      <p>WPM: <span id="wpm">0</span></p>
+      <p>Accuracy: <span id="accuracy">100</span>%</p>
+    </div>
+
+    <div id="result" class="text-center mt-4 font-semibold text-lg"></div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
