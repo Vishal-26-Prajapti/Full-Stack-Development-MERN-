@@ -630,6 +630,16 @@ A classic **Snake Game** built using JavaScript where the player controls the sn
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-55_Snake-Game/
 
 ---
+
+### 🔹Day 56 - Snake Game (Advanced Version)
+
+An upgraded and fully functional **Snake Game** with modern UI, smooth gameplay, score tracking, and increasing difficulty.
+
+🔗 Live Demo: https://vishal-cos-snakegame.netlify.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-57_Snake-Game/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
