@@ -637,7 +637,17 @@ An upgraded and fully functional **Snake Game** with modern UI, smooth gameplay,
 
 🔗 Live Demo: https://vishal-cos-snakegame.netlify.app/
 
-🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-57_Snake-Game/
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-56_Snake-Game/
+
+---
+
+### 🔹Day 57 - Typing Speed Test (WPM + Accuracy)
+
+An interactive **Typing Speed Test App** that measures your typing speed (WPM) and accuracy in real-time with multiple difficulty levels.
+
+🔗 Live Demo: https://vishal-cos-typing-speed.netlify.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-57_Typing-Test/
 
 ---
 ## 🛠️ Tech Stack
