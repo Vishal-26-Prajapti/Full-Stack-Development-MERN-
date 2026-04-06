@@ -660,6 +660,16 @@ A simple and interactive **Live Code Editor** that allows users to write HTML, C
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-58_Code-Editor/
 
 ---
+
+### 🔹Day 59 - Live Character Counter
+
+An interactive **Live Character Counter** web app that tracks characters, words, and spaces in real-time with a modern UI and smooth animations.
+
+🔗 Live Demo: https://vishal-cos-live-character-counter.netlify.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-59_Live-Character-Count/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
