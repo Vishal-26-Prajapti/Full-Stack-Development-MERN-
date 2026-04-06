@@ -650,6 +650,16 @@ An interactive **Typing Speed Test App** that measures your typing speed (WPM) a
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-57_Typing-Test/
 
 ---
+
+### 🔹Day 58- Live Code Editor (HTML, CSS, JS)
+
+A simple and interactive **Live Code Editor** that allows users to write HTML, CSS, and JavaScript and see the output in real-time.
+
+🔗 Live Demo: https://vishal-cos-code-editor.netlify.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-58_Code-Editor/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
