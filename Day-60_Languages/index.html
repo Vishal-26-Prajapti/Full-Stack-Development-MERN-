@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dev Languages — Accordion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="./Vishal_logo.png" type="image/x-icon">
+</head>
+<body>
+  <div class="bg-grid"></div>
+
+  <main class="container">
+    <header class="header">
+      <span class="header-label">Vishal Prajapati</span>
+      <h1>Dev Languages</h1>
+      <p class="header-sub">Click any card to explore the language.</p>
+    </header>
+
+    <div class="search-wrap">
+      <svg class="search-icon" viewBox="0 0 20 20" fill="none">
+        <circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="1.5"/>
+        <path d="M13.5 13.5L17 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+      <input id="search" class="search" type="text" placeholder="Search languages, tags, or keywords…" autocomplete="off" />
+      <span id="count" class="count">5</span>
+    </div>
+
+    <div class="toolbar">
+      <div class="filter-pills">
+        <button class="pill active" data-filter="all">All</button>
+        <button class="pill" data-filter="JVM">JVM</button>
+        <button class="pill" data-filter="Web">Web</button>
+        <button class="pill" data-filter="AI">AI</button>
+        <button class="pill" data-filter="Android">Android</button>
+      </div>
+      <button id="collapseAll" class="collapse-btn">Collapse all</button>
+    </div>
+
+    <div id="accordion-list" class="accordion-list"></div>
+
+    <p id="no-results" class="no-results hidden">No languages match — try another search.</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
