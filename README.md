@@ -670,6 +670,16 @@ An interactive **Live Character Counter** web app that tracks characters, words,
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-59_Live-Character-Count/
 
 ---
+
+### 🔹Day 60 -  Dev Languages Accordion (Search + Filter UI)
+
+An interactive **Accordion UI** that showcases different programming languages with **search, filtering, and smooth animations**.
+
+🔗 Live Demo: https://vishal-cos-language-search.netlify.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-60_Languages/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
