@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0d0f14;
+    color: #e8eaf0;
+    font-family: 'DM Sans', sans-serif;
+    min-height: 100vh;
+}
+
+.ambient {
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.blob {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(120px);
+    opacity: 1;
+}
+
+.blob1 {
+    width: 600px;
+    height: 600px;
+    top: -200px;
+    left: -200px;
+    background: rgba(52, 120, 200, 0.15);
+}
+
+.blob2 {
+    width: 500px;
+    height: 500px;
+    bottom: -150px;
+    right: -150px;
+    background: rgba(180, 50, 20, 0.12);
+}
+
+.blob3 {
+    width: 300px;
+    height: 300px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(100, 160, 220, 0.08);
+}
+
+.hero {
+    position: relative;
+    z-index: 10;
+    padding: 60px 80px 30px;
+}
+
+.hero h1 {
+    font-family: 'Syne', sans-serif;
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 1.05;
+}
+
+.hero h1 span {
+    color: #5a6278;
+}
+
+.hero p {
+    margin-top: 15px;
+    max-width: 420px;
+    color: #8892a4;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.mood-section {
+    position: relative;
+    z-index: 10;
+    padding: 0 80px 60px;
+}
+
+.mood-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+}
+
+.mood-btn {
+    background: #14171f;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 18px;
+    padding: 22px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.mood-btn:hover {
+    transform: translateY(-5px);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.mood-icon-wrap {
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 14px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.mood-btn:hover .mood-icon-wrap {
+    transform: scale(1.1);
+}
+
+.mood-label {
+    display: block;
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+
+.mood-sub {
+    font-size: 11px;
+    color: #5a6278;
+    font-family: 'DM Mono', monospace;
+}
+
+@media (max-width: 900px) {
+    .mood-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hero {
+        padding: 40px 30px;
+    }
+
+    .mood-section {
+        padding: 0 30px 40px;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+}
