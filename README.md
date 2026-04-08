@@ -680,6 +680,16 @@ An interactive **Accordion UI** that showcases different programming languages w
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-60_Languages/
 
 ---
+
+### 🔹Day 61 - Mood Vibe Generator
+
+An interactive **Mood Vibe Generator** that suggests a vibe based on your current mood with a clean UI and aesthetic design.
+
+🔗 Live Demo: https://vishal-cos-mood-vibe.netlify.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-61_Mood-Vibe/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
