@@ -690,6 +690,16 @@ An interactive **Mood Vibe Generator** that suggests a vibe based on your curren
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-61_Mood-Vibe/
 
 ---
+
+### 🔹Day 62 - Mood Vibe Generator
+
+A dynamic Mood-Based Music Experience UI that lets users select their mood and explore a curated vibe including genre, artists, tempo, and playlist.
+
+🔗 Live Demo: https://vishal-cos-moodvibe.netlify.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-62_Mood-Vibe/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
