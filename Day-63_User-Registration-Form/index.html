@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>User Registration Form</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="./Vishal_logo.png" type="image/x-icon">
+    </head>
+
+    <body>
+
+        <div class="page">
+            <div class="card">
+                <div class="card-header">
+                    <h2>User Registration Form</h2>
+                </div>
+                <div class="card-body">
+                    <form id="regForm">
+
+                        <div class="field">
+                            <label for="username">Full Name</label>
+                            <input type="text" id="username" name="username" placeholder="Your full name..." required>
+                        </div>
+
+                        <div class="field">
+                            <label for="useremail">Email Address</label>
+                            <input type="email" id="useremail" name="useremail" placeholder="you@example.com" required>
+                        </div>
+
+                        <div class="field">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" placeholder="Min. 6 characters"
+                                required minlength="6">
+                        </div>
+
+                        <div class="field">
+                            <label for="cpassword">Confirm Password</label>
+                            <input type="password" id="cpassword" name="cpassword" placeholder="Re-enter password"
+                                required>
+                            <span class="error-msg" id="errorcpass"></span>
+                        </div>
+
+                        <div class="toggle-row">
+                            <input type="checkbox" id="togglePass">
+                            <span>Show password</span>
+                        </div>
+
+                        <div class="section-gap">
+                            <div class="group-label">Gender</div>
+                            <div class="radio-group">
+                                <label class="radio-item"><input type="radio" name="gender" value="male"> Male</label>
+                                <label class="radio-item"><input type="radio" name="gender" value="female">
+                                    Female</label>
+                                <label class="radio-item"><input type="radio" name="gender" value="other"> Other</label>
+                            </div>
+                            <span class="error-msg" id="genderError"></span>
+                        </div>
+
+                        <div class="section-gap">
+                            <div class="group-label">Skills</div>
+                            <div class="check-group">
+                                <label class="check-item"><input type="checkbox" name="skills" value="HTML">
+                                    HTML</label>
+                                <label class="check-item"><input type="checkbox" name="skills" value="CSS"> CSS</label>
+                                <label class="check-item"><input type="checkbox" name="skills" value="JS">
+                                    JavaScript</label>
+                            </div>
+                            <span class="error-msg" id="skillError"></span>
+                        </div>
+
+                        <div class="field">
+                            <label for="upload">Profile Image</label>
+                            <input type="file" id="upload" name="upload" accept="image/*">
+                        </div>
+
+                        <button type="submit" class="submit-btn">Register Now</button>
+                        <div class="success-msg" id="successMsg">Registration Successful!.</div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
