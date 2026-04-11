@@ -700,6 +700,16 @@ A dynamic Mood-Based Music Experience UI that lets users select their mood and e
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-62_Mood-Vibe/
 
 ---
+
+### 🔹Day 63 - User Registration Form
+
+A modern and responsive User Registration Form with real-time validation and clean UI design.
+
+🔗 Live Demo: https://vishal-cos-user-registration-form.netlify.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-63_User-Registration-Form/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
