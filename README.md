@@ -720,6 +720,16 @@ A dynamic product listing web app that fetches real-time data from an API and di
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-64_Product-listing-page/
 
 ---
+
+### 🔹Day 65 - Kanban Board (Task Manager)
+
+A simple and interactive Kanban Board web app to manage tasks using drag-and-drop functionality.
+
+🔗 Live Demo: https://vishal-cos-kanban-board.netlify.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-65_Kanban-Board/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
