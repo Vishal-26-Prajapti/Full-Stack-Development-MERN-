@@ -710,6 +710,16 @@ A modern and responsive User Registration Form with real-time validation and cle
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-63_User-Registration-Form/
 
 ---
+
+### 🔹Day 64 - Product Listing Page
+
+A dynamic product listing web app that fetches real-time data from an API and displays products in a responsive UI with cart functionality.
+
+🔗 Live Demo: https://vishal-cos-product-listing-page.netlify.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-64_Product-listing-page/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
