@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kanban Board</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="shortcut icon" href="./Vishal_logo.png" type="image/x-icon">
+    </head>
+
+    <body>
+        <main>
+
+            <nav>
+                <div class="container">
+                    <h1 class="logo">Kanban</h1>
+                    <div class="nav-actions">
+                        <button type="button" id="toggle-modal">Add New Task</button>
+                        <button type="button" id="clear-all">Clear Board</button>
+                    </div>
+                </div>
+            </nav>
+
+            <section class="board">
+
+                <div id="todo" class="task-column">
+                    <div class="heading">
+                        <h2>To Do</h2>
+                        <div class="right">0</div>
+                    </div>
+                </div>
+
+                <div id="progress" class="task-column">
+                    <div class="heading">
+                        <h2>In Progress</h2>
+                        <div class="right">0</div>
+                    </div>
+                </div>
+
+                <div id="done" class="task-column">
+                    <div class="heading">
+                        <h2>Done</h2>
+                        <div class="right">0</div>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+
+        <div class="modal add-new-task">
+            <div class="bg"></div>
+            <div class="center">
+                <input type="text" placeholder="Task title" id="task-title-input">
+                <textarea id="task-desc-input" placeholder="Task Description"></textarea>
+                <button type="button" id="add-new-task" class="add-task-btn">Add Task</button>
+            </div>
+        </div>
+
+        <script src="./script.js"></script>
+    </body>
+
+</html>
