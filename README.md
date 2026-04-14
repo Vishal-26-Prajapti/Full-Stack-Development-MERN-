@@ -730,6 +730,16 @@ A simple and interactive Kanban Board web app to manage tasks using drag-and-dro
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-65_Kanban-Board/
 
 ---
+
+### 🔹Day 66 - Advanced Kanban Board
+
+A feature-rich Kanban Board web app with drag-and-drop, mobile support, and localStorage persistence.
+
+🔗 Live Demo: https://vishal-cos-kanbanboard.netlify.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-66_Kanban-Board/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
