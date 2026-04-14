@@ -740,6 +740,16 @@ A feature-rich Kanban Board web app with drag-and-drop, mobile support, and loca
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-66_Kanban-Board/
 
 ---
+
+### 🔹Day 67 - Real Estate Landing Page
+
+A modern and responsive Real Estate Landing Page with clean UI, smooth animations, and mobile-friendly navigation.
+
+🔗 Live Demo: https://vishal-cos-estate-page.netlify.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-67_EState-Page/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
