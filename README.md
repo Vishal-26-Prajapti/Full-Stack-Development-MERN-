@@ -750,6 +750,16 @@ A modern and responsive Real Estate Landing Page with clean UI, smooth animation
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-67_EState-Page/
 
 ---
+
+### 🔹Day 68 - Real Estate Landing Page
+
+A dynamic Real Estate web application with property listings, search functionality, and API integration.
+
+🔗 Live Demo: https://vishal-cos-estatepage.netlify.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-68_EState-Website/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
