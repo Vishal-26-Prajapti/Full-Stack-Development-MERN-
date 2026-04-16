@@ -760,6 +760,16 @@ A dynamic Real Estate web application with property listings, search functionali
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-68_EState-Website/
 
 ---
+
+### 🔹Day 69 - Library Management System  
+
+A simple yet powerful Library Management System built using JavaScript OOP concepts to manage books efficiently.  
+
+🔗 Live Demo: https://vishal-cos-lms.netlify.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-69_Library-Management-System/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
