@@ -770,6 +770,16 @@ A simple yet powerful Library Management System built using JavaScript OOP conce
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-69_Library-Management-System/
 
 ---
+
+### 🔹Day 70 - Banking System Web App    
+
+A modern frontend banking system that supports authentication, deposits, withdrawals, and transaction history using LocalStorage.
+
+🔗 Live Demo: https://vishal-cos-banking-system.netlify.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-70_Banking-System/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
