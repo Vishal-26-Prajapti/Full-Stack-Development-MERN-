@@ -780,6 +780,16 @@ A modern frontend banking system that supports authentication, deposits, withdra
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-70_Banking-System/
 
 ---
+
+### 🔹Day 71 - Neon Jumping Letters    
+
+An interactive animation project where users can type text and watch each letter animate with neon effects and wave motion.
+
+🔗 Live Demo: https://vishal-cos-jumping-letters.netlify.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day71_Jumping-Letters/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
