@@ -790,6 +790,12 @@ An interactive animation project where users can type text and watch each letter
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day71_Jumping-Letters/
 
 ---
+
+### 🔹Day 72 - Task Manager (Full Stack) 
+
+A full-stack Task Manager application with CRUD functionality using a backend API.
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
