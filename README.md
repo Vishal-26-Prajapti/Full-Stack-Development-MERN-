@@ -795,6 +795,29 @@ An interactive animation project where users can type text and watch each letter
 
 A full-stack Task Manager application with CRUD functionality using a backend API.
 
+## Features
+- Add tasks with title and description
+- Edit existing tasks
+- Delete tasks
+- Fetch tasks from backend
+- Real-time UI updates
+- REST API integration
+
+---
+
+### 🔹Day 73 - Real Estate Backend API 
+
+A backend API for a Real Estate platform with authentication, role-based access, and MySQL database integration.
+
+## Features
+- User Registration & Login
+- Password hashing using bcrypt
+- JWT Authentication
+- Role-based authorization (User / Agent)
+- Protected routes middleware
+- Sequelize ORM with MySQL
+- Model relationships (User, Property, Booking)
+
 ---
 ## 🛠️ Tech Stack
 - HTML5  
