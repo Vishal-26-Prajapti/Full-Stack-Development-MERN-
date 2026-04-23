@@ -829,6 +829,16 @@ An interactive notification bell component with animation and dynamic counter us
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-74_Bell-Notification/
 
 ---
+
+### 🔹Day 75 - Scroll Progress Indicator
+
+An interactive scroll-based UI with progress bar, circular indicator, and snap scrolling sections.
+
+🔗 Live Demo: https://vishal-cos-scrollbar-indicator.netlify.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-74_Bell-Notification/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
