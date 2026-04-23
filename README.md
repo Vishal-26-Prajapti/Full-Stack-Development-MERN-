@@ -819,6 +819,16 @@ A backend API for a Real Estate platform with authentication, role-based access,
 - Model relationships (User, Property, Booking)
 
 ---
+
+### 🔹Day 74 - Bell Notification Animation
+
+An interactive notification bell component with animation and dynamic counter using JavaScript and CSS.
+
+🔗 Live Demo: https://vishal-cos-bell-notification.netlify.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-74_Bell-Notification/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
