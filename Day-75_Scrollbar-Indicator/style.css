@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #0f172a;
+    color: white;
+    overflow: hidden;
+}
+
+.container {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.card {
+    height: 100vh;
+    scroll-snap-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    opacity: 0.4;
+    padding: 20px;
+    text-align: center;
+}
+
+.card img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.card h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1.2rem;
+    color: #94a3b8;
+}
+
+.card.active {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+.indicator {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 4px;
+    width: 0%;
+    background: linear-gradient(to right, #38bdf8, #a78bfa);
+    z-index: 1000;
+}
+
+.circle-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.bg {
+    fill: none;
+    stroke: #334155;
+    stroke-width: 6;
+}
+
+.progress {
+    fill: none;
+    stroke: #38bdf8;
+    stroke-width: 6;
+    stroke-dasharray: 188;
+    stroke-dashoffset: 188;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+}
+
+.percent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+}
