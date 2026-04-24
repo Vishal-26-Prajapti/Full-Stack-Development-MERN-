@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Scratch Card</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="shortcut icon" href="./Vishal_logo.png" type="image/x-icon">
+    </head>
+
+    <body>
+
+        <h1 class="title">🎁 Lucky Scratch</h1>
+
+        <div id="scratch-container">
+            <div id="reveal-layer">
+                <div class="emoji" id="reward-emoji">🎁</div>
+                <div class="msg" id="reward-title">Try Your Luck</div>
+                <div class="sub" id="reward-sub">Scratch to reveal</div>
+
+                <button id="copy-btn" style="display:none;">Copy Code</button>
+            </div>
+            <canvas id="scratch-canvas"></canvas>
+        </div>
+
+        <div id="progress-bar-wrap">
+            <div id="progress-bar"></div>
+        </div>
+
+        <div id="hint">✦ Scratch to reveal reward</div>
+
+        <button id="reset-btn">🔄 Try Again</button>
+
+        <canvas id="confetti-canvas"></canvas>
+
+        <audio id="scratch-sound" src="https://assets.mixkit.co/sfx/preview/mixkit-scratch-coin-1990.mp3"></audio>
+        <audio id="win-sound" src="https://assets.mixkit.co/sfx/preview/mixkit-winning-chimes-2015.mp3"></audio>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
