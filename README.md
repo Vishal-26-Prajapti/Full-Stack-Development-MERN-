@@ -839,6 +839,16 @@ An interactive scroll-based UI with progress bar, circular indicator, and snap s
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-74_Bell-Notification/
 
 ---
+
+### 🔹Day 76 - Lucky Scratch Card
+
+An interactive scratch card web app where users reveal rewards by scratching a surface using mouse or touch.
+
+🔗 Live Demo: https://vishal-cos-scratch-card.netlify.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-76_Scratch-Effect/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
