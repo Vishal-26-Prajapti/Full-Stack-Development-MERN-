@@ -891,6 +891,16 @@ A modern chatbot that answers user questions using fuzzy search with a clean Rea
 - Error handling for unknown queries
 - Clean responsive UI
 ---
+
+### 🔹Day 80 - MyShows - Movie Booking App
+
+A modern movie booking web app built using HTML, Tailwind CSS, JavaScript, and TVMaze API with interactive UI and seat booking system.
+
+🔗 Live Demo: https://vishal-cos-myshows.netlify.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-80_MyShow/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
