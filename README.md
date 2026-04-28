@@ -876,6 +876,21 @@ A modern e-commerce product listing interface built using HTML, CSS, and JavaScr
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-78_Product-listing-Page/
 
 ---
+
+### 🔹Day 79 - Smart FAQ Chatbot
+
+A modern chatbot that answers user questions using fuzzy search with a clean React UI and Node.js backend.
+
+## 🚀 Features
+
+- Real-time chat interface
+- Smart suggestion dropdown
+- Fuzzy search using Fuse.js
+- Typing delay simulation
+- Auto scroll behavior
+- Error handling for unknown queries
+- Clean responsive UI
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
