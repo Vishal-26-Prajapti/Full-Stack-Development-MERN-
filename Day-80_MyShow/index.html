@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MyShows - Book Your Show</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <link rel="stylesheet" href="../style.css">
+        <link rel="shortcut icon" href="./Vishal_logo.png" type="image/x-icon">
+    </head>
+
+    <body class="bg-gray-950 text-gray-100">
+        <header class="bg-gray-950/90 backdrop-blur border-b border-gray-800 sticky top-0 z-40">
+            <div class="max-w-7xl mx-auto px-4 py-3">
+
+                <div class="flex justify-between items-center">
+
+                    <h1
+                        class="text-2xl font-bold bg-gradient-to-r from-red-500 to-pink-500 bg-clip-text text-transparent">
+                        MyShows
+                    </h1>
+
+                    <nav class="hidden md:flex gap-6 text-gray-300 text-sm">
+                        <a href="#" class="hover:text-red-400 transition">Movies</a>
+                        <a href="#" class="hover:text-red-400 transition">TV Shows</a>
+                        <a href="#" class="hover:text-red-400 transition">My Bookings</a>
+                    </nav>
+
+                </div>
+
+                <div class="relative mt-3">
+                    <input type="text" id="searchInput" placeholder="Search movies, shows, actors..." class="w-full bg-gray-900 border border-gray-700 rounded-xl px-5 py-3 text-gray-100 placeholder-gray-500 
+                       focus:outline-none focus:border-red-500 focus:ring-2 focus:ring-red-500/20 transition-all" />
+
+                    <span class="absolute right-4 top-3 text-gray-500">🔍</span>
+                </div>
+
+            </div>
+        </header>
+
+        <main class="max-w-7xl mx-auto px-4 py-8">
+
+            <div id="loadingSpinner" class="flex flex-col justify-center items-center h-96 gap-4">
+                <div class="w-12 h-12 border-4 border-gray-700 border-t-red-500 rounded-full animate-spin"></div>
+                <p class="text-gray-400 text-sm">Loading amazing shows...</p>
+            </div>
+
+            <div id="moviesContainer"
+                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 hidden">
+            </div>
+
+            <div id="noResults" class="text-center py-20 hidden">
+                <div class="text-5xl mb-4">🎭</div>
+                <p class="text-gray-300 text-xl font-semibold mb-2">No results found</p>
+                <p class="text-gray-500 text-sm mb-4">
+                    Try searching for something else or explore popular shows
+                </p>
+            </div>
+
+        </main>
+
+        <div id="movieModal"
+            class="fixed inset-0 bg-black/80 backdrop-blur-sm hidden z-50 flex items-center justify-center p-4">
+
+            <div
+                class="relative bg-gray-900 rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto border border-gray-800 shadow-2xl animate-[fadeInScale_.3s_ease]">
+
+                <button onclick="closeMovieModal()"
+                    class="absolute top-4 right-4 text-gray-400 hover:text-white text-2xl transition">
+                    ✕
+                </button>
+
+                <div id="movieDetailsContent" class="p-6 space-y-4">
+                </div>
+
+                <div class="px-6 pb-6 pt-4 border-t border-gray-800">
+                    <button onclick="openBookingModal()" class="w-full flex items-center justify-center gap-2 bg-gradient-to-r from-red-600 to-pink-600 
+                               text-white font-semibold py-3 rounded-xl 
+                               hover:from-red-700 hover:to-pink-700 
+                               active:scale-95 transition duration-300">
+                        <span>Book Now</span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="bookingModal"
+            class="fixed inset-0 bg-black/80 backdrop-blur-sm hidden z-50 flex items-center justify-center p-4">
+
+            <div
+                class="relative bg-gray-900 rounded-2xl max-w-3xl w-full max-h-[90vh] overflow-y-auto border border-gray-800 shadow-2xl animate-[fadeInScale_.3s_ease]">
+
+                <button onclick="closeBookingModal()"
+                    class="absolute top-4 right-4 text-gray-400 hover:text-white text-2xl transition">
+                    ✕
+                </button>
+
+                <div class="p-6">
+
+                    <h2 id="bookingMovieTitle" class="text-2xl font-bold mb-6 text-center">
+                        Select Your Seats
+                    </h2>
+
+                    <div class="text-center mb-8">
+                        <div class="text-gray-500 text-xs tracking-widest mb-2">SCREEN</div>
+                        <div class="h-1 bg-gradient-to-r from-transparent via-red-500 to-transparent mx-auto w-64">
+                        </div>
+                    </div>
+
+                    <div id="seatGrid" class="grid grid-cols-6 gap-3 justify-center max-w-md mx-auto mb-8">
+                    </div>
+
+                    <div class="flex justify-center gap-6 mb-8 text-sm flex-wrap">
+                        <div class="flex items-center gap-2">
+                            <div class="w-4 h-4 bg-gray-700 border border-gray-600 rounded"></div>
+                            <span class="text-gray-400">Available</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <div class="w-4 h-4 bg-gray-500 border border-gray-600 rounded"></div>
+                            <span class="text-gray-400">Booked</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <div class="w-4 h-4 bg-red-500 border border-red-500 rounded"></div>
+                            <span class="text-gray-400">Selected</span>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-800 rounded-xl p-5 mb-6 border border-gray-700 space-y-3">
+
+                        <div class="flex justify-between">
+                            <span class="text-gray-400">Selected Seats</span>
+                            <span id="selectedSeatsDisplay" class="text-red-500 font-semibold">
+                                None
+                            </span>
+                        </div>
+
+                        <div class="flex justify-between">
+                            <span class="text-gray-400">Price per Seat</span>
+                            <span class="text-white">₹150</span>
+                        </div>
+
+                        <div class="flex justify-between text-lg font-bold border-t border-gray-700 pt-3">
+                            <span>Total</span>
+                            <span id="totalPrice" class="text-red-500">₹0</span>
+                        </div>
+
+                    </div>
+
+                    <div class="flex gap-4">
+                        <button onclick="closeBookingModal()" class="flex-1 bg-gray-800 text-white font-semibold py-3 rounded-xl 
+                                   hover:bg-gray-700 active:scale-95 transition">
+                            Cancel
+                        </button>
+
+                        <button onclick="confirmBooking()" class="flex-1 flex items-center justify-center gap-2 
+                                   bg-gradient-to-r from-red-600 to-pink-600 text-white font-semibold py-3 rounded-xl 
+                                   hover:from-red-700 hover:to-pink-700 active:scale-95 transition">
+                            🎟️ <span>Confirm Booking</span>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="ticketModal"
+            class="fixed inset-0 bg-black/80 backdrop-blur-sm hidden z-50 flex items-center justify-center p-4">
+
+            <div class="bg-gray-900 rounded-2xl max-w-md w-full border border-gray-800 shadow-2xl p-6 text-center">
+
+                <h2 class="text-2xl font-bold text-green-400 mb-4">
+                    🎉 Booking Confirmed!
+                </h2>
+
+                <div id="ticketContent" class="bg-gray-800 rounded-xl p-5 text-left space-y-3">
+                </div>
+
+                <button onclick="closeTicketModal()"
+                    class="mt-6 w-full bg-gradient-to-r from-red-600 to-pink-600 text-white py-3 rounded-xl font-semibold">
+                    Done
+                </button>
+
+            </div>
+        </div>
+
+        <script src="./script.js"></script>
+    </body>
+
+</html>
