@@ -866,6 +866,16 @@ A modern React-based frontend for a Real Estate platform with authentication UI,
 - Protected Routes (UI level)
 
 ---
+
+### 🔹Day 78 - VishalShoppy - Product Store UI
+
+A modern e-commerce product listing interface built using HTML, CSS, and JavaScript with real-time API data.
+
+🔗 Live Demo: https://vishal-cos-vishalshoppy.netlify.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-78_Product-listing-Page/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
