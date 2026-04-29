@@ -139,7 +139,7 @@ function showTyping() {
 
   const avatar = document.createElement("div");
   avatar.className = "avatar claude-av";
-  avatar.textContent = "C";
+  avatar.textContent = "MyAI";
 
   const indicator = document.createElement("div");
   indicator.className = "typing-indicator";
