@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>AI Chat Interface</title>
+
+        <link rel="stylesheet" href="./style.css" />
+        <link rel="shortcut icon" href="./Vishal_logo.png" type="image/x-icon">
+    </head>
+
+    <body>
+
+        <header class="header">
+            <div class="logo" aria-label="App Logo">
+                MyAI <span>✦</span>
+            </div>
+
+            <button class="new-chat-btn" onclick="newChat()" aria-label="Start new chat">
+                + New chat
+            </button>
+        </header>
+
+        <main id="chat-window" class="chat-window">
+
+            <section id="welcome-screen" class="welcome">
+                <h1>How can I help you today?</h1>
+                <p>Ask anything — I’ll think with you and help you out.</p>
+
+                <div class="suggestions">
+                    <button class="suggestion-chip" onclick="sendSuggestion(this)">
+                        Explain quantum computing
+                    </button>
+                    <button class="suggestion-chip" onclick="sendSuggestion(this)">
+                        Write a short poem
+                    </button>
+                    <button class="suggestion-chip" onclick="sendSuggestion(this)">
+                        Help me plan my day
+                    </button>
+                    <button class="suggestion-chip" onclick="sendSuggestion(this)">
+                        Summarise a topic
+                    </button>
+                </div>
+            </section>
+
+            <div id="messages"></div>
+
+        </main>
+
+        <footer class="input-area">
+
+            <div class="input-box">
+
+                <textarea id="user-input" placeholder="Message Claude..." rows="1" aria-label="Chat input"></textarea>
+
+                <button id="send-btn" onclick="sendMessage()" disabled aria-label="Send message">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z" />
+                    </svg>
+                </button>
+
+            </div>
+
+        </footer>
+
+        <script src="./script.js"></script>
+
+    </body>
+
+</html>
