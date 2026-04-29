@@ -139,7 +139,7 @@ function showTyping() {
 
   const avatar = document.createElement("div");
   avatar.className = "avatar claude-av";
-  avatar.textContent = "MyAI";
+  avatar.textContent = "M";
 
   const indicator = document.createElement("div");
   indicator.className = "typing-indicator";
@@ -199,7 +199,7 @@ function typeMessage(text) {
 
   const avatar = document.createElement("div");
   avatar.className = "avatar claude-av";
-  avatar.textContent = "C";
+  avatar.textContent = "M";
 
   const bubble = document.createElement("div");
   bubble.className = "bubble";
