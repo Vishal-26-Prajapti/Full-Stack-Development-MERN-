@@ -911,6 +911,16 @@ A modern AI chat interface built using HTML, CSS, and JavaScript with a clean UI
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-81_MyAI/
 
 ---
+
+### 🔹Day 82 - Pomodoro Timer
+
+A clean and modern Pomodoro Timer web app built using HTML, CSS, and JavaScript with focus/break sessions, animated progress bar, and smooth glassmorphism UI.
+
+🔗 Live Demo: https://vishal-cos-pomodoro-timer.netlify.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-82_Pomodoro-Timer/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
