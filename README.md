@@ -901,6 +901,16 @@ A modern movie booking web app built using HTML, Tailwind CSS, JavaScript, and T
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-80_MyShow/
 
 ---
+
+### 🔹Day 81 - MyAI - Chat Interface App
+
+A modern AI chat interface built using HTML, CSS, and JavaScript with a clean UI, typing animation, suggestion chips, and dynamic conversation system.
+
+🔗 Live Demo: https://vishal-cos-myai.netlify.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-81_MyAI/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
