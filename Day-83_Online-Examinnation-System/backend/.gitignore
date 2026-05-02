@@ -1,0 +1,27 @@
+# Node modules (biggest useless folder)
+node_modules/
+
+# Environment variables (secrets)
+.env
+
+# Logs
+logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build folders
+dist/
+build/
+
+# Dependency lock (optional but usually keep it)
+# package-lock.json
+
+# IDE files
+.vscode/
+.idea/
+
+# Cache
+.cache/
