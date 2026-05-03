@@ -1,4 +1,3 @@
-
 const options = [
     {id:"option1", text:"JavaScript", votes:0},
     {id:"option2", text:"Python", votes:0},
@@ -6,12 +5,9 @@ const options = [
     {id:"option4", text:"C++", votes:0},
 ];
 
-
-
 function submitVote(){
 
     const selectedOption = document.querySelector('input[name="poll"]:checked');
-   // console.log(selectedOption.value);
 
     if(!selectedOption){
         alert("Please select an optin.");
@@ -20,7 +16,6 @@ function submitVote(){
 
     const optionId = selectedOption.value;
     const selectedOptionObj = options.find((option)=> option.id === optionId);
-   // console.log(selectedOptionObj);
     if(selectedOptionObj){
         selectedOptionObj.votes++;
         console.log(selectedOptionObj);
@@ -28,7 +23,6 @@ function submitVote(){
     }
 
 }
-
 
 function displayResult(){
     const result = document.getElementById('result');
