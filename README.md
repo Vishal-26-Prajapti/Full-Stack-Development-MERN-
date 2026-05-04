@@ -921,6 +921,16 @@ A clean and modern Pomodoro Timer web app built using HTML, CSS, and JavaScript 
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-82_Pomodoro-Timer/
 
 ---
+
+### 🔹Day 84 - Poll System (Voting App)
+
+A simple and interactive Poll System built using HTML, CSS, and JavaScript where users can vote and view real-time results with dynamic percentage bars.
+
+🔗 Live Demo: https://vishal-cos-poll-system.netlify.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-84_Poll-System-Application/
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
