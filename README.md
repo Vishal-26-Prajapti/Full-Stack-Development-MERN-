@@ -931,6 +931,12 @@ A simple and interactive Poll System built using HTML, CSS, and JavaScript where
 🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-84_Poll-System-Application/
 
 ---
+
+### 🔹Day 86 - Face Recognition Attendance System
+
+A backend-based Face Recognition Attendance System built using the MERN stack. It manages user authentication, attendance tracking, and is structured for seamless integration of real-time face recognition.
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
