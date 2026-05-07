@@ -937,6 +937,11 @@ A simple and interactive Poll System built using HTML, CSS, and JavaScript where
 A backend-based Face Recognition Attendance System built using the MERN stack. It manages user authentication, attendance tracking, and is structured for seamless integration of real-time face recognition.
 
 ---
+
+### 🔹Day 86 - Face Recognition Attendance System (Frontend Routing)
+
+Implemented the frontend structure for the Face Recognition Attendance System using React. Added routing to navigate between Home, Login, and Register pages with a reusable layout for consistent UI.
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
