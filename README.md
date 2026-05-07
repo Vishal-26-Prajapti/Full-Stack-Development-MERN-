@@ -938,10 +938,18 @@ A backend-based Face Recognition Attendance System built using the MERN stack. I
 
 ---
 
-### 🔹Day 86 - Face Recognition Attendance System (Frontend Routing)
+### 🔹Day 87 - Face Recognition Attendance System (Frontend Routing)
 
 Implemented the frontend structure for the Face Recognition Attendance System using React. Added routing to navigate between Home, Login, and Register pages with a reusable layout for consistent UI.
+
 ---
+
+### 🔹Day 88 - Face Recognition Attendance System (Frontend Routing)
+
+Developed Admin and User Dashboards for the Face Recognition Attendance System using React. Added protected routes, attendance tracking, analytics charts, and role-based access for secure dashboard management.
+
+---
+
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
