@@ -969,6 +969,20 @@ Successfully completed an AI-powered Face Recognition Attendance System using th
 
 ---
 
+### 🔹Day 90 - AI Voice Assistant UI Design
+
+Started AI Voice Assistant project by designing the frontend interface. Created the assistant layout, chat UI structure, and microphone interaction section for future voice-based communication.
+
+✨ Features Added:
+- 💬 Chat UI Design
+- 🎤 Microphone Button Interface
+- 🤖 Assistant Layout Structure
+- 🎨 Modern & Responsive UI
+- ⚡ Scalable Frontend Setup
+
+---
+
+---
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
