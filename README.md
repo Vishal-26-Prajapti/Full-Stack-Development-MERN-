@@ -950,6 +950,25 @@ Developed Admin and User Dashboards for the Face Recognition Attendance System u
 
 ---
 
+### 🔹Day 89 - Face Recognition Attendance System (Project Completed)
+
+Successfully completed an AI-powered Face Recognition Attendance System using the MERN stack and face-api.js. The system allows users to register their face and automatically mark attendance through real-time face recognition.
+
+✨ Features Included:
+- 🔐 Authentication & Protected Routes
+- 👤 User Dashboard
+- 🛠️ Admin Dashboard
+- 📅 Attendance Tracking System
+- 📊 Analytics & Attendance Reports
+- 📁 CSV Export Functionality
+- 🤖 AI Face Registration
+- 📸 Real-Time Face Attendance
+- 🧠 face-api.js Integration
+- 🎨 Responsive & Animated UI
+- ⚡ Real-Time Attendance Processing
+
+---
+
 ## 🛠️ Tech Stack
 - HTML5  
 - CSS3 (Flexbox, Animations, Glassmorphism)  
