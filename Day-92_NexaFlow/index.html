@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexaFlow — The Future of Automation</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./Vishal_logo.png" type="image/x-icon">
+  </head>
+
+  <body>
+
+    <canvas id="bg-canvas"></canvas>
+    <div class="grid-overlay"></div>
+    <div id="cursor"></div>
+    <div id="cursor-ring"></div>
+
+    <div class="wrapper">
+
+      <!-- NAV -->
+      <nav>
+        <div class="logo">Nexa<span>Flow</span></div>
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#how">How it Works</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#cta" class="nav-cta">Get Started →</a></li>
+        </ul>
+      </nav>
+
+      <!-- HERO -->
+      <section class="hero">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          Now in Public Beta — v2.4.0
+        </div>
+        <h1>
+          <span class="line1">Automate the</span>
+          <span class="line2">Impossible</span>
+        </h1>
+        <p>NexaFlow unifies your entire data stack with AI-powered pipelines that learn, adapt, and scale — without a
+          single line of boilerplate.</p>
+        <div class="hero-btns">
+          <button class="btn-primary">Start Building Free</button>
+          <button class="btn-ghost">
+            Watch Demo
+            <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </button>
+        </div>
+        <div class="scroll-hint">
+          <div class="scroll-line"></div>
+          Scroll
+        </div>
+      </section>
+
+      <!-- STATS BAND -->
+      <div class="stats-band">
+        <div class="stat">
+          <div class="stat-num" data-target="98">0</div>
+          <div class="stat-label">Uptime %</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num" data-target="12000" data-suffix="+">0</div>
+          <div class="stat-label">Active Pipelines</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num" data-target="4.9">0</div>
+          <div class="stat-label">Avg Rating</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num" data-target="500" data-suffix="ms">0</div>
+          <div class="stat-label">Avg Latency</div>
+        </div>
+      </div>
+
+      <!-- FEATURES -->
+      <section class="features" id="features">
+        <div class="features-header">
+          <div class="section-tag">Platform</div>
+          <h2 class="section-title">Everything you need<br>to move at light speed</h2>
+          <p class="section-sub">From ingestion to deployment, NexaFlow handles the infrastructure so your team can
+            focus on what actually matters.</p>
+        </div>
+        <div class="features-grid">
+          <div class="feat-card">
+            <div class="feat-icon">⚡</div>
+            <div class="feat-accent"></div>
+            <h3>Real-time Stream Processing</h3>
+            <p>Process millions of events per second with sub-millisecond latency. Kafka-native with no configuration
+              overhead.</p>
+          </div>
+          <div class="feat-card">
+            <div class="feat-icon">🧠</div>
+            <h3>AI-Powered Orchestration</h3>
+            <p>Our neural scheduler predicts bottlenecks before they happen and reroutes traffic automatically across
+              your cluster.</p>
+          </div>
+          <div class="feat-card">
+            <div class="feat-icon">🔐</div>
+            <h3>Zero-Trust Security</h3>
+            <p>SOC2 Type II certified. End-to-end encryption with hardware-backed key management and full audit trails.
+            </p>
+          </div>
+          <div class="feat-card">
+            <div class="feat-icon">📊</div>
+            <h3>Observability Suite</h3>
+            <p>Unified traces, metrics, and logs. Native OpenTelemetry with pre-built dashboards for every connector.
+            </p>
+          </div>
+          <div class="feat-card">
+            <div class="feat-icon">🔗</div>
+            <h3>300+ Connectors</h3>
+            <p>Snowflake, BigQuery, Stripe, Salesforce and 297 more — all managed, authenticated, and
+              version-controlled.</p>
+          </div>
+          <div class="feat-card">
+            <div class="feat-icon">🌐</div>
+            <h3>Global Edge Network</h3>
+            <p>Deploy to 42 regions worldwide. Automatic geo-routing with data residency controls for every compliance
+              requirement.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- HOW IT WORKS -->
+      <section class="how" id="how">
+        <div class="how-inner">
+          <div>
+            <div class="section-tag">Process</div>
+            <h2 class="section-title">Up and running<br>in minutes</h2>
+            <p class="section-sub" style="margin-bottom:3rem">No DevOps PhD required. Connect your sources, define your
+              transforms, and ship.</p>
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="step-num">01 — CONNECT</div>
+                <h3>Link your data sources</h3>
+                <p>OAuth-based authentication to any of our 300+ connectors. Your credentials never leave your VPC.</p>
+              </div>
+              <div class="timeline-item">
+                <div class="step-num">02 — DEFINE</div>
+                <h3>Write transforms in plain English</h3>
+                <p>Describe what you want in natural language. Our AI generates production-ready SQL and Python
+                  transforms.</p>
+              </div>
+              <div class="timeline-item">
+                <div class="step-num">03 — DEPLOY</div>
+                <h3>Ship to production instantly</h3>
+                <p>One-click deploy with automatic scaling, monitoring, and rollback. Blue-green by default.</p>
+              </div>
+              <div class="timeline-item">
+                <div class="step-num">04 — OPTIMIZE</div>
+                <h3>Let AI tune performance</h3>
+                <p>Continuous profiling identifies slow queries and suggests index strategies — automatically applied on
+                  approval.</p>
+              </div>
+            </div>
+          </div>
+          <div class="terminal">
+            <div class="term-bar">
+              <div class="term-dot" style="background:#ff5f57"></div>
+              <div class="term-dot" style="background:#febc2e"></div>
+              <div class="term-dot" style="background:#28c840"></div>
+              <span style="font-size:0.7rem;color:#3a5a7a;margin-left:0.5rem">nexaflow — pipeline.yml</span>
+            </div>
+            <div class="term-body">
+              <div><span class="t-muted">$</span> <span class="t-accent">nexaflow</span> <span class="t-white">init
+                  pipeline</span></div>
+              <div><span class="t-green">✓</span> <span class="t-muted">Detected 3 data sources</span></div>
+              <div><span class="t-green">✓</span> <span class="t-muted">AI generated schema mapping</span></div>
+              <div>&nbsp;</div>
+              <div><span class="t-purple">pipeline:</span></div>
+              <div>&nbsp;&nbsp;<span class="t-accent">name:</span> <span class="t-white">user-analytics</span></div>
+              <div>&nbsp;&nbsp;<span class="t-accent">sources:</span></div>
+              <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="t-orange">- postgres://prod-db</span></div>
+              <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="t-orange">- stripe://events</span></div>
+              <div>&nbsp;&nbsp;<span class="t-accent">transforms:</span></div>
+              <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="t-muted">- type:</span> <span class="t-green">ai_suggest</span>
+              </div>
+              <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="t-muted">prompt:</span> <span class="t-white">"join
+                  and dedupe users"</span></div>
+              <div>&nbsp;&nbsp;<span class="t-accent">destination:</span> <span
+                  class="t-white">bigquery://warehouse</span></div>
+              <div>&nbsp;</div>
+              <div><span class="t-muted">$</span> <span class="t-accent">nexaflow</span> <span
+                  class="t-white">deploy</span></div>
+              <div><span class="t-green">✓</span> <span class="t-muted">Pipeline deployed in</span> <span
+                  class="t-accent">4.2s</span></div>
+              <div><span class="t-green">✓</span> <span class="t-muted">Streaming</span> <span class="t-accent">1.4M
+                  events/min</span></div>
+              <div><span class="t-muted">></span> <span class="term-cursor"></span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRICING -->
+      <section class="pricing" id="pricing">
+        <div class="pricing-header">
+          <div class="section-tag">Pricing</div>
+          <h2 class="section-title">Simple. Transparent. Scalable.</h2>
+          <p class="section-sub">Start free. Scale to enterprise. No hidden fees, no vendor lock-in, no regrets.</p>
+        </div>
+        <div class="pricing-grid">
+          <div class="price-card">
+            <div class="plan-name">Starter</div>
+            <div class="plan-price"><sup>$</sup>0</div>
+            <div class="plan-period">forever free</div>
+            <ul class="plan-features">
+              <li>3 active pipelines</li>
+              <li>500K events / month</li>
+              <li>5 connectors</li>
+              <li>Community support</li>
+              <li>7-day log retention</li>
+            </ul>
+            <button class="plan-btn">Get Started Free</button>
+          </div>
+          <div class="price-card featured">
+            <div class="plan-name">Pro</div>
+            <div class="plan-price"><sup>$</sup>79</div>
+            <div class="plan-period">per month, billed annually</div>
+            <ul class="plan-features">
+              <li>Unlimited pipelines</li>
+              <li>50M events / month</li>
+              <li>All 300+ connectors</li>
+              <li>Priority support</li>
+              <li>90-day log retention</li>
+              <li>AI transform assistant</li>
+            </ul>
+            <button class="plan-btn">Start Pro Trial</button>
+          </div>
+          <div class="price-card">
+            <div class="plan-name">Enterprise</div>
+            <div class="plan-price" style="font-size:2rem;padding-top:0.5rem">Custom</div>
+            <div class="plan-period">talk to us</div>
+            <ul class="plan-features">
+              <li>Unlimited everything</li>
+              <li>Dedicated cluster</li>
+              <li>SSO + SCIM</li>
+              <li>SLA guarantee 99.99%</li>
+              <li>Custom data residency</li>
+              <li>White-glove onboarding</li>
+            </ul>
+            <button class="plan-btn">Contact Sales</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- TESTIMONIALS -->
+      <section class="testimonials">
+        <div style="max-width:1100px;margin:0 auto">
+          <div class="section-tag">Testimonials</div>
+          <h2 class="section-title">Trusted by teams<br>that ship fast</h2>
+          <div class="test-grid">
+            <div class="test-card">
+              <div class="test-stars">★ ★ ★ ★ ★</div>
+              <blockquote>"We cut our ETL infrastructure cost by 60% in the first month. NexaFlow just works — that's
+                genuinely rare."</blockquote>
+              <div class="test-author">
+                <div class="test-avatar">SK</div>
+                <div>
+                  <div class="test-name">Sara Kim</div>
+                  <div class="test-role">Head of Data · Veritas AI</div>
+                </div>
+              </div>
+            </div>
+            <div class="test-card">
+              <div class="test-stars">★ ★ ★ ★ ★</div>
+              <blockquote>"The AI transform assistant turned what would've been a 2-week sprint into a 45-minute
+                afternoon. Genuinely witchcraft."</blockquote>
+              <div class="test-author">
+                <div class="test-avatar" style="background:linear-gradient(135deg,#ff2d7a,#7b2fff)">JM</div>
+                <div>
+                  <div class="test-name">James Moreau</div>
+                  <div class="test-role">CTO · Helios Systems</div>
+                </div>
+              </div>
+            </div>
+            <div class="test-card">
+              <div class="test-stars">★ ★ ★ ★ ★</div>
+              <blockquote>"We process 2 billion events a day on NexaFlow. The observability suite alone is worth the
+                subscription ten times over."</blockquote>
+              <div class="test-author">
+                <div class="test-avatar" style="background:linear-gradient(135deg,#00e5ff,#00ff88)">AP</div>
+                <div>
+                  <div class="test-name">Anika Patel</div>
+                  <div class="test-role">Platform Eng Lead · Orbital Labs</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="cta-section" id="cta">
+        <div class="cta-glow"></div>
+        <div class="section-tag" style="display:block;text-align:center">Get Started</div>
+        <h2>The future of data<br>is already here.</h2>
+        <p>Join 4,000+ teams shipping faster with NexaFlow. No credit card required.</p>
+        <div class="cta-input-row">
+          <input class="cta-input" type="email" placeholder="you@company.com">
+          <button class="btn-primary">Start Free →</button>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer>
+        <div class="footer-left">
+          <div class="logo">Nexa<span>Flow</span></div>
+          <p>© 2026 NexaFlow Inc. All rights reserved.</p>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Status</a></li>
+            <li><a href="#">Docs</a></li>
+          </ul>
+        </nav>
+      </footer>
+
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+
+</html>
