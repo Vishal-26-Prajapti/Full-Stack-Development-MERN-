@@ -982,6 +982,32 @@ Started AI Voice Assistant project by designing the frontend interface. Created 
 
 ---
 
+### 🔹Day 92 - NexaFlow SaaS Landing Page
+
+Built a futuristic SaaS landing page called **NexaFlow** using HTML, CSS, and JavaScript. The project focuses on premium UI/UX, modern animations, responsive layouts, and interactive frontend design.
+
+✨ Features Included:
+- 🌌 Futuristic Hero Section
+- 🎨 Premium UI/UX Design
+- ⚡ Animated Statistics Counter
+- 🧠 Interactive Feature Cards
+- 💻 Terminal Style Workflow Section
+- 💰 Responsive Pricing Section
+- ⭐ Testimonials Section
+- 🌐 CTA & Footer Design
+- 🖱️ Custom Cursor Animation
+- 📱 Fully Responsive Layout
+- ✨ Smooth Animations & Transitions
+
+🛠️ Tech Stack:
+- HTML5
+- CSS3
+- JavaScript
+
+🔗 Live Demo: https://harmonious-daifuku-beefe5.netlify.app/
+
+---
+
 ---
 ## 🛠️ Tech Stack
 - HTML5  
