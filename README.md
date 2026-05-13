@@ -1008,6 +1008,21 @@ Built a futuristic SaaS landing page called **NexaFlow** using HTML, CSS, and Ja
 
 ---
 
+### 🔹Day 93 - Centralized Patient Record Management System
+
+Started building a Centralized Patient Record Management System focused on hospital workflow management with secure dashboards and modular architecture.
+
+✨ Modules Added:
+- 👨‍⚕️ Patient Management
+- 📅 Appointment Management
+- 💳 Billing Management
+- 📁 Medical Records
+- 👥 User Management
+- 🔐 Protected Routes
+- 📊 Dashboard System
+
+---
+
 ---
 ## 🛠️ Tech Stack
 - HTML5  
