@@ -1023,6 +1023,24 @@ Started building a Centralized Patient Record Management System focused on hospi
 
 ---
 
+### 🔹Day 94 - Patient Record System Routing & Authentication
+
+Continued development of the Centralized Patient Record Management System by improving routing structure, authentication flow, and protected dashboard navigation.
+
+✨ Features Added:
+- 🔐 Login & Register Pages
+- 📊 Dashboard Routing
+- 🛡️ Protected Route System
+- 👨‍⚕️ Patients Module Routing
+- 📅 Appointments Module Routing
+- 💳 Billing Module Routing
+- 📁 Records Module Routing
+- 👥 Users Module Routing
+- 🛠️ Admin Dashboard Routing
+- 🔄 Default Route Redirection
+
+---
+
 ---
 ## 🛠️ Tech Stack
 - HTML5  
