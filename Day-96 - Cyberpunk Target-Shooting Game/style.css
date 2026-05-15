@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #05050a;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: none;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#ui-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    pointer-events: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.hud {
+    color: #00ffcc;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(0, 255, 204, 0.5);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#crosshair {
+    width: 40px;
+    height: 40px;
+    border: 2px dashed #ff0055;
+    border-radius: 50%;
+    position: absolute;
+    pointer-events: none;
+    z-index: 100;
+    transform: translate(-50%, -50%);
+    animation: rotateCrosshair 4s linear infinite;
+    box-shadow: 0 0 8px #ff0055;
+}
+
+#crosshair::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 6px;
+    height: 6px;
+    background: #00ffcc;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px #00ffcc;
+}
+
+@keyframes rotateCrosshair {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+.target {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: radial-gradient(circle, rgba(0, 255, 204, 0.8) 0%, rgba(0, 0, 0, 0) 70%);
+    border: 3px solid #00ffcc;
+    border-radius: 50%;
+    z-index: 5;
+    transform: translate(-50%, -50%) scale(0);
+    animation: spawnTarget 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+    box-shadow: 0 0 15px #00ffcc;
+    pointer-events: auto;
+}
+
+.target::after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    border: 2px solid #ff0055;
+    border-radius: 50%;
+    animation: pulseRing 1.5s infinite linear;
+}
+
+@keyframes spawnTarget {
+    to {
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+@keyframes pulseRing {
+    0% {
+        transform: scale(0.6);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1.4);
+        opacity: 0;
+    }
+}
+
+.flash {
+    animation: flashScreen 0.15s ease-out;
+}
+
+@keyframes flashScreen {
+    0% {
+        background: rgba(255, 0, 85, 0.2);
+    }
+
+    100% {
+        background: transparent;
+    }
+}
+
+#game-over-screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(5, 5, 10, 0.9);
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ff0055;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease;
+}
+
+#game-over-screen.visible {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 12px 30px;
+    background: transparent;
+    border: 2px solid #00ffcc;
+    color: #00ffcc;
+    font-size: 1.2rem;
+    font-family: inherit;
+    font-weight: bold;
+    cursor: none;
+    text-shadow: 0 0 5px #00ffcc;
+    box-shadow: 0 0 10px rgba(0, 255, 204, 0.2);
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background: #00ffcc;
+    color: #05050a;
+    box-shadow: 0 0 25px #00ffcc;
+}
