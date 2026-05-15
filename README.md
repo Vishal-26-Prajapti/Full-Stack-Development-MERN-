@@ -1041,6 +1041,22 @@ Continued development of the Centralized Patient Record Management System by imp
 
 ---
 
+### 🔹Day 95 - Futuristic Floating Radial Action Menu
+
+Built an ultra-modern futuristic floating radial action menu using React, Tailwind CSS, Framer Motion, and Lucide React icons.
+
+The project focuses on cinematic UI interactions, smooth animations, glassmorphism effects, and premium futuristic design inspired by VisionOS and sci-fi dashboard interfaces.
+
+🧩 Icons Used:
+- Home
+- Search
+- Settings
+- User
+- Notifications
+- Messages
+- 
+---
+
 ---
 ## 🛠️ Tech Stack
 - HTML5  
