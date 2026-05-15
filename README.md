@@ -1057,6 +1057,18 @@ The project focuses on cinematic UI interactions, smooth animations, glassmorphi
 - 
 ---
 
+### 🔹Day 96 - Neon Reflex Cyber Shooter Game
+
+Built a futuristic cyberpunk-style shooting game called **Neon Reflex** using HTML, CSS, and JavaScript.
+
+The game focuses on reflex-based gameplay with glowing visuals, animated targets, particle effects, and immersive cyberpunk UI interactions.
+
+🔗 Live Demo: https://vishal-cos-cyber-shooting.netlify.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-96 - Cyberpunk Target-Shooting Game
+
+---
+
 ---
 ## 🛠️ Tech Stack
 - HTML5  
