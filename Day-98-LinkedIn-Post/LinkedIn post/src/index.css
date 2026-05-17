@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+body {
+  background: radial-gradient(circle at top right, #1e1b4b, #0f172a, #020617);
+  overflow-x: hidden;
+}
+
+/* Custom crisp scrollbar for glass containers */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
