@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #020617;
+    font-family: Inter, sans-serif;
+}
+
+@layer utilities {
+
+    .clip-hexagon {
+        clip-path: polygon(25% 5%,
+                75% 5%,
+                100% 50%,
+                75% 95%,
+                25% 95%,
+                0% 50%);
+    }
+
+    .clip-star {
+        clip-path: polygon(50% 0%,
+                61% 35%,
+                98% 35%,
+                68% 57%,
+                79% 91%,
+                50% 70%,
+                21% 91%,
+                32% 57%,
+                2% 35%,
+                39% 35%);
+    }
+
+    .glass-card {
+        @apply bg-white/3 backdrop-blur-xl border border-white/10;
+    }
+
+    @keyframes float {
+
+        0%,
+        100% {
+            transform: translateY(0px);
+        }
+
+        50% {
+            transform: translateY(-6px);
+        }
+    }
+
+    .animate-float {
+        animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes shake {
+
+        0%,
+        100% {
+            transform: translateX(0px);
+        }
+
+        25% {
+            transform: translateX(-4px);
+        }
+
+        75% {
+            transform: translateX(4px);
+        }
+    }
+
+    .animate-shake {
+        animation: shake 0.25s ease-in-out 2;
+    }
+
+    @keyframes fadeUp {
+        from {
+            opacity: 0;
+            transform: translateY(10px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
+
+    .animate-fade-up {
+        animation: fadeUp 0.4s ease;
+    }
+}

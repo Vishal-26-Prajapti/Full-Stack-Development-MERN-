@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fluidic 3D Art Generator</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="shortcut icon" href="./Vishal_logo.png" type="image/x-icon">
+    </head>
+
+    <body>
+
+        <canvas id="artCanvas"></canvas>
+
+        <div id="ui-container">
+            <h1>Flux Shape Generator</h1>
+
+            <div class="controls">
+                <div class="control-group">
+                    <label>Complexity</label>
+                    <input type="range" id="complexity" min="3" max="15" value="5">
+                </div>
+
+                <div class="control-group">
+                    <label>Rotation Speed</label>
+                    <input type="range" id="speed" min="0" max="100" value="30">
+                </div>
+
+                <div class="control-group">
+                    <label>Base Color (Hue)</label>
+                    <input type="range" id="hue" min="0" max="360" value="180">
+                </div>
+
+                <button class="btn" id="randomizeBtn">Randomize Aesthetics</button>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+
+
+    </body>
+
+</html>
