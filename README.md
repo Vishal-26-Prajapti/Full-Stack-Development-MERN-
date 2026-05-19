@@ -1069,6 +1069,18 @@ The game focuses on reflex-based gameplay with glowing visuals, animated targets
 
 ---
 
+### 🔹Day 98 - Interactive LinkedIn Post Creator (SaaS UI Tool)
+
+Built a **real-time LinkedIn Post Creator** using **React and Tailwind CSS**.
+
+This project simulates a SaaS tool where users can create, edit, and preview LinkedIn posts instantly with theme customization.
+
+---
+
+🚀 Live Demo: https://golden-duckanoo-3fa174.netlify.app/
+
+---
+
 ---
 ## 🛠️ Tech Stack
 - HTML5  
