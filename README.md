@@ -1101,6 +1101,21 @@ The project focuses on premium cyberpunk-inspired UI design, glowing effects, re
 
 ---
 
+### 🔹Day 100 - SwiftKeys Typing Practice App
+
+Built a modern typing practice web application called **SwiftKeys** using HTML, CSS, and JavaScript.
+
+The app helps users improve typing speed and accuracy through real-time typing feedback and interactive performance tracking.
+
+🚀 Milestone Achieved:
+Completed Day 100 of the #100DaysOfCodeChallenge 🎉
+
+This journey included frontend projects, backend systems, UI/UX experiments, animations, dashboards, games, AI integrations, and full-stack applications.
+
+🔗 Live Demo: https://vishal-cos-swiftkeys-typing-practice.netlify.app/
+
+🔗 GitHub Repository: https://vishal-26-prajapti.github.io/Full-Stack-Development-MERN-/Day-100_SwiftKeys-Typing-Practice
+
 ---
 ## 🛠️ Tech Stack
 - HTML5  
