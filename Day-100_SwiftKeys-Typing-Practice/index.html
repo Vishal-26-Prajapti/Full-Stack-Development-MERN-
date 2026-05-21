@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SwiftKeys - Typing Practice</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="./Vishal_logo.png" type="image/x-icon">
+    </head>
+
+    <body>
+
+        <div class="container">
+            <h1>SwiftKeys</h1>
+            <p class="subtitle">Test your typing speed and accuracy</p>
+
+            <div class="stats-container">
+                <div class="stat-box">
+                    <span class="stat-label">WPM</span>
+                    <span id="wpm-display" class="stat-value">0</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-label">Accuracy</span>
+                    <span id="accuracy-display" class="stat-value">100%</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-label">Time Left</span>
+                    <span id="timer-display" class="stat-value">30s</span>
+                </div>
+            </div>
+
+            <div class="typing-card">
+                <input type="text" id="keyboard-input" autofocus autocomplete="off" autocapitalize="none">
+                <div id="text-display" class="text-container"></div>
+            </div>
+
+            <button id="restart-btn" class="btn">Restart Test</button>
+        </div>
+
+        <div class="result-modal hidden" id="result-modal">
+
+            <div class="result-card">
+
+                <h2>Test Complete</h2>
+
+                <div class="result-stats">
+
+                    <div class="result-item">
+                        <span>WPM</span>
+                        <strong id="final-wpm">0</strong>
+                    </div>
+
+                    <div class="result-item">
+                        <span>Accuracy</span>
+                        <strong id="final-accuracy">0%</strong>
+                    </div>
+
+                    <div class="result-item">
+                        <span>Mistakes</span>
+                        <strong id="final-mistakes">0</strong>
+                    </div>
+
+                </div>
+
+                <button id="close-modal-btn" class="btn primary-btn">
+                    Try Again
+                </button>
+
+            </div>
+
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
