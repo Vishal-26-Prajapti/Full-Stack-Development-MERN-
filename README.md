@@ -1081,6 +1081,26 @@ This project simulates a SaaS tool where users can create, edit, and preview Lin
 
 ---
 
+### 🔹Day 99 - Futuristic Human Verification UI
+
+Built a futuristic Human Verification interface for a secure Link Generator application using React and Tailwind CSS.
+
+The project focuses on premium cyberpunk-inspired UI design, glowing effects, responsive layouts, and modern verification interactions.
+
+✨ Features Included:
+- 🔐 Human Verification System
+- 🌌 Animated Glow Background
+- 🎨 Futuristic UI Design
+- ⚡ Gradient Typography Effects
+- ✨ Ambient Glow Styling
+- 📱 Responsive Layout
+- 🧠 Reusable Component Structure
+- 🌙 Dark Modern Theme
+
+🔗 Live Demo: https://scintillating-donut-94d14b.netlify.app/
+
+---
+
 ---
 ## 🛠️ Tech Stack
 - HTML5  
